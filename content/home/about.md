@@ -20,12 +20,12 @@ weight = 5
 # List your qualifications (such as academic degrees).
 [[education.courses]]
   course = "Ph.D. Candidate in Data Science & Engineering"
-  institution = "Singapore Management University"
+  institution = "School of Information Systems, Singapore Management University (SMU), Singapore"
   year = 2018
 
 [[education.courses]]
   course = "B.Tech in Computer Science"
-  institution = "National Institute of Technology, Hamirpur, India"
+  institution = "National Institute of Technology (NIT), Hamirpur, India"
   year = 2008
  
 +++
