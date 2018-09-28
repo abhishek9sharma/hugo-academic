@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ICSME on Abhishek Sharma</title>
+    <link>/tags/icsme/</link>
+    <description>Recent content in ICSME on Abhishek Sharma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 17 Sep 2017 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/icsme/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Personality and Project Success: Insights from a Large-Scale Study with Professionals</title>
+      <link>/publication/personality/</link>
+      <pubDate>Sun, 17 Sep 2017 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/personality/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What&#39;s Hot in Software Engineering Twitter Space?</title>
+      <link>/publication/twitterevents/</link>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/twitterevents/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
