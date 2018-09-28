@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EASE on Abhishek Sharma</title>
+    <link>/tags/ease/</link>
+    <description>Recent content in EASE on Abhishek Sharma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Thu, 15 Jun 2017 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/ease/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cataloging github repositories</title>
+      <link>/publication/cataloging/</link>
+      <pubDate>Thu, 15 Jun 2017 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/cataloging/</guid>
+      <description>#More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+    </item>
+    
+  </channel>
+</rss>
