@@ -2,11 +2,13 @@
 title = "Temporal kernel descriptors for learning with time-sensitive patterns?"
 date = 2016-05-05T00:00:00
 draft = false
+tags     = ["SDM","2016"]
+
 
 
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Doyen Sahoo", "**Abhishek Sharma**", "Steven C.H. Ho", "Peilin Zhao"]
+authors = ["Doyen Sahoo", "**Abhishek Sharma**", "Steven C.H. Hoi", "Peilin Zhao"]
 
 # Publication type.
 # Legend:
@@ -20,7 +22,7 @@ authors = ["Doyen Sahoo", "**Abhishek Sharma**", "Steven C.H. Ho", "Peilin Zhao"
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "In *31st International Conference on Software Maintenance and Evolution (ICSME)*, IEEE"
+publication = "In *Proceedings of the 2016 SIAM International Conference on Data Mining (SDM)*, IEEE"
 publication_short = ""
 
 # Abstract and optional shortened version.
@@ -42,7 +44,8 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["SDM","2016"]
+#tags     = ["SDM","2016"]
+
 
 # Links (optional).
 url_pdf = "https://epubs.siam.org/doi/abs/10.1137/1.9781611974348.61"
@@ -54,6 +57,7 @@ url_slides = ""
 url_video = ""
 url_poster = ""
 url_source = ""
+
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.

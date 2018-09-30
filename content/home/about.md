@@ -34,4 +34,4 @@ weight = 5
 
 Hey!
 
-I am currently a final year Ph.D. student at School of Information Systems, Singapore Management University, currently working with Associate Professor David Lo in the SOAR group.
+I am a final year Ph.D. student at School of Information Systems, Singapore Management University, currently working with Associate Professor David Lo in the SOAR group.
