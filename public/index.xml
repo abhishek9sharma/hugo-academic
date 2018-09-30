@@ -46,8 +46,7 @@
       <pubDate>Sat, 11 Nov 2017 00:00:00 +0800</pubDate>
       
       <guid>/publication/apibot/</guid>
-      <description>&lt;p&gt;#More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -65,8 +64,7 @@
       <pubDate>Thu, 15 Jun 2017 00:00:00 +0800</pubDate>
       
       <guid>/publication/cataloging/</guid>
-      <description>&lt;p&gt;#More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -85,6 +83,16 @@
       
       <guid>/publication/spiteful/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Latest News</title>
+      <link>/post/news/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/post/news/</guid>
+      <description>&lt;p&gt;Our paper &lt;a href=&#34;/publication/software-experts/&#34;&gt;Recommending Who to Follow in the Software Engineering Twitter Spacee&lt;/a&gt;  has been selected for publication in the journal &lt;em&gt;Transactions on Software Engineering and Methodology (TOSEM)&lt;/em&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>

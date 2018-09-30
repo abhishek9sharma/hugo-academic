@@ -52,6 +52,8 @@ url_slides = ""
 url_video = ""
 url_poster = ""
 url_source = ""
+url_custom = [{name = "SocInfo", url = "tags/socinfo"}, {name = "2016", url = "tags/2016"}]
+
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.

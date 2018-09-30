@@ -2,6 +2,7 @@
 title = "APIBot: Question Answering Bot for API documentation"
 date = 2017-11-11T00:00:00
 draft = false
+active = true
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Yuan Tian", "Ferdian Thung", "**Abhishek Sharma**", "David Lo"]
@@ -41,7 +42,7 @@ projects = []
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
 tags = ["ASE", "2017"]
-
+categories= ["API"]
 # Links (optional).
 url_pdf = "https://dl.acm.org/citation.cfm?id=3155585"
 url_preprint = ""
@@ -52,6 +53,9 @@ url_slides = ""
 url_video = ""
 url_poster = ""
 url_source = ""
+url_custom = [{name = "ASE", url = "tags/ase/"},
+             {name = "2017", url = "tags/2017/"}]
+
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
@@ -74,4 +78,4 @@ caption = ""
 
 +++
 
-#More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
+

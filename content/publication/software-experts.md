@@ -52,6 +52,9 @@ url_slides = ""
 url_video = ""
 url_poster = ""
 url_source = ""
+url_custom = [{name = "TOSEM", url = "tags/tosem/"},
+              {name = "2018", url = "tags/2018/"}]
+
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.

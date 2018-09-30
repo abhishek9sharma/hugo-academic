@@ -92,6 +92,14 @@
     
     <url>
     
+      <loc>/post/news/</loc>
+      <lastmod>2018-10-30T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/publication/temporalkernel/</loc>
       <lastmod>2016-05-05T00:00:00+08:00</lastmod>
     </url>
@@ -177,6 +185,15 @@
     
     <url>
     
+      <loc>/categories/api/</loc>
+      <lastmod>2017-11-11T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/tags/ase/</loc>
       <lastmod>2017-11-11T00:00:00+08:00</lastmod>
       <priority>0</priority>
@@ -196,6 +213,7 @@
     <url>
     
       <loc>/categories/</loc>
+      <lastmod>2017-11-11T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -239,7 +257,7 @@
     <url>
     
       <loc>/tags/saner/</loc>
-      <lastmod>2016-04-20T00:00:00+08:00</lastmod>
+      <lastmod>2015-03-15T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -291,6 +309,15 @@
     
       <loc>/tags/</loc>
       <lastmod>2015-10-01T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/news/</loc>
+      <lastmod>2018-10-30T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     

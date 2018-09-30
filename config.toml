@@ -99,7 +99,7 @@ enableGitInfo = false
 
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
-  color_theme = "ocean"
+  color_theme = "default"
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
@@ -263,6 +263,13 @@ enableGitInfo = false
     link = "//linkedin.com/in/abhishek9sharma"
 
 
+  #[[params.social]]
+  #  icon = "stack-overflow"
+  #  icon_pack = "fab"
+  #  link = "https://stackoverflow.com/users/4361766/oldmonk?tab=profile"
+
+
+
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
   # [[params.social]]
@@ -284,14 +291,15 @@ enableGitInfo = false
   weight = 1
 
 [[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
+  name = "Posts"
+  url = "#posts"
   weight = 2
 
-#[[menu.main]]
-#  name = "Posts"
-#  url = "#posts"
-#  weight = 3
+
+[[menu.main]]
+  name = "Publications"
+  url = "#publications_selected"
+  weight = 3
 
 #[[menu.main]]
 #  name = "Projects"
@@ -321,7 +329,7 @@ enableGitInfo = false
   #   0: No search engine
   #   1: Built-in (Fuse)
   #   2: Algolia (https://www.algolia.com)
-  engine = 1
+  engine = 2
 
   # Configuration of Algolia search engine.
   # Paste the values from your Algolia dashboard.
@@ -336,7 +344,8 @@ enableGitInfo = false
   tag = "tags"
   category = "categories"
   publication_type = "publication_types"
-  
+
+#preserveTaxonomyNames = true 
 
 # Languages
 #   Create a [languages.X] block for each language you want, where X is the language ID.

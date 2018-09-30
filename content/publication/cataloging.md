@@ -46,12 +46,16 @@ tags = ["EASE", "2017"]
 url_pdf = "https://dl.acm.org/citation.cfm?id=3084287"
 url_preprint = "files/preprints/EASE17abhishek_preprint.pdf"
 url_code = "https://github.com/abhishek9sharma/EASE17Scripts/"
-url_dataset = "https://github.com/abhishek9sharma/abhishek9sharma.github.io/tree/master/DataSets/SANER17Paper/"
+url_dataset = "https://github.com/abhishek9sharma/abhishek9sharma.github.io/tree/master/DataSets/EASE17Paper"
 url_project = ""
 url_slides = ""
 url_video = ""
 url_poster = ""
 url_source = ""
+url_custom = [{name = "EASE", url = "tags/ease/"},
+              {name = "2017", url = "tags/2017/"}
+              ]
+
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
@@ -74,4 +78,3 @@ caption = ""
 
 +++
 
-#More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.

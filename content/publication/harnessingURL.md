@@ -1,6 +1,9 @@
 +++
 title = "Harnessing Twitter to support serendipitous learning of developers"
 date = 2017-02-22T00:00:00
+tags = ["SANER", "2017"]
+tags_weight = 22
+
 draft = false
 
 
@@ -42,7 +45,8 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["SANER", "2017"]
+
+
 
 # Links (optional).
 url_pdf = "https://ieeexplore.ieee.org/abstract/document/7884639/"
@@ -54,6 +58,9 @@ url_slides = "https://www.slideshare.net/juggernaut09nith/saner17-sharma/"
 url_video = ""
 url_poster = ""
 url_source = ""
+url_custom = [{name = "SANER", url = "tags/saner"}, 
+              {name = "2017", url = "tags/2017"}]
+
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
