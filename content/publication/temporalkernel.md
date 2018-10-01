@@ -3,7 +3,7 @@ title = "Temporal kernel descriptors for learning with time-sensitive patterns?"
 date = 2016-05-05T00:00:00
 draft = false
 tags     = ["SDM","2016"]
-
+tags_weight = 22
 
 
 

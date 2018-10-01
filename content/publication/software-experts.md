@@ -2,6 +2,8 @@
 title = "Recommending Who to Follow in the Software Engineering Twitter Space"
 date = 2018-09-27T00:00:00
 draft = false
+tags = ["TOSEM", "2018"]
+tags_weight = 22
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["**Abhishek Sharma**", "Yuan Tian", "Agus Sulistya", "Dinusha Wijedasa", "David Lo"]
@@ -40,7 +42,7 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["TOSEM", "2018"]
+
 
 # Links (optional).
 url_pdf = "https://dl.acm.org/citation.cfm?id=3276753"

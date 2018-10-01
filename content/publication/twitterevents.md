@@ -2,7 +2,8 @@
 title = "What's Hot in Software Engineering Twitter Space?"
 date = 2015-10-01T00:00:00
 draft = false
-
+tags = ["ICSME", "2015"]
+tags_weight = 22
 
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -42,7 +43,6 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["ICSME", "2015"]
 
 # Links (optional).
 url_pdf = "https://ieeexplore.ieee.org/abstract/document/7332510"

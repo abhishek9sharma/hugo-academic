@@ -2,6 +2,8 @@
 title = "Spiteful, One-Off, and Kind: Predicting Customer Feedback Behavior on Twitter"
 date = 2016-10-19T00:00:00
 draft = false
+tags = ["SocInfo", "2016"]
+tags_weight = 22
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = [ "Agus Sulistya", "**Abhishek Sharma**", "David Lo"]
@@ -40,7 +42,7 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["SocInfo", "2016"]
+
 
 # Links (optional).
 url_pdf = "https://link.springer.com/chapter/10.1007/978-3-319-47874-6_26"

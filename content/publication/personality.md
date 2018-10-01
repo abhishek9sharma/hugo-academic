@@ -43,6 +43,7 @@ projects = []
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
 tags = ["ICSME", "2017"]
+tags_weight = 22
 
 # Links (optional).
 url_pdf = "https://ieeexplore.ieee.org/abstract/document/8094432"

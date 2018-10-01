@@ -298,8 +298,13 @@ enableGitInfo = false
 
 [[menu.main]]
   name = "Publications"
-  url = "#publications_selected"
+  url = "#publications"
   weight = 3
+
+[[menu.main]]
+  name = "Experience"
+  url = "#experience"
+  weight = 4
 
 #[[menu.main]]
 #  name = "Projects"

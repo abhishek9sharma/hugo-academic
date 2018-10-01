@@ -41,6 +41,7 @@ projects = []
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
 tags = ["EASE", "2017"]
+tags_weight = 22
 
 # Links (optional).
 url_pdf = "https://dl.acm.org/citation.cfm?id=3084287"
