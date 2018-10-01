@@ -23,7 +23,7 @@ date_format = "January 2006"
   title = "Analyst Programmer (Senior Software Engineer)"
   company = "Accenture"
   company_url = "https://www.accenture.com"
-  location = "Bengaluru, India"
+  location = "Bengaluru (India), Liverpool/Horsham (UK)"
   date_start = "2012-09-01"
   date_end = "2014-07-07"
   description = """
@@ -42,7 +42,7 @@ date_format = "January 2006"
   title = "Senior Programmer (Software Engineer)"
   company = "Accenture"
   company_url = "https://www.accenture.com"
-  location = "Bengaluru, India"
+  location = "Bengaluru (India)"
   date_start = "2011-01-31"
   date_end = "2012-08-31"
   description = """
@@ -52,14 +52,14 @@ date_format = "January 2006"
   
 * Requirements Analysis
 * Coding modules as per given specifications
-* Bug Fixing See less
+* Bug Fixing
   """
 
 [[experience]]
   title = "Assistant Software Engineer"
   company = "Tata Consultancy Services Ltd."
   company_url = "https://www.tcs.com/"
-  location = "Gurgaon, India"
+  location = "Gurgaon (India)"
   date_start = "2008-10-20"
   date_end = "2016-01-28"
   description = """

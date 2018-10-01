@@ -185,15 +185,6 @@
     
     <url>
     
-      <loc>/categories/api/</loc>
-      <lastmod>2017-11-11T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/tags/ase/</loc>
       <lastmod>2017-11-11T00:00:00+08:00</lastmod>
       <priority>0</priority>
@@ -213,7 +204,6 @@
     <url>
     
       <loc>/categories/</loc>
-      <lastmod>2017-11-11T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -257,7 +247,7 @@
     <url>
     
       <loc>/tags/saner/</loc>
-      <lastmod>2015-03-15T00:00:00+08:00</lastmod>
+      <lastmod>2017-02-22T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
