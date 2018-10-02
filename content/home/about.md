@@ -10,16 +10,16 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
+     "Machine Learning",   
+    "Natural Language Processing",
     "Empirical Software Engineering",
     "Mining Software Repositories",
-    "Natural Language Processing",
-    "Machine Learning",
     "Information Retrieval"
       ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "Ph.D. Candidate in Data Science & Engineering"
+  course = "Ph.D. Candidate in Information Systems"
   institution = "School of Information Systems, Singapore Management University (SMU), Singapore"
   year = 2018
 

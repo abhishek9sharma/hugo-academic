@@ -20,14 +20,14 @@ date_format = "January 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "Analyst Programmer (Senior Software Engineer)"
+  title = "Analyst Programmer"
   company = "Accenture"
   company_url = "https://www.accenture.com"
   location = "Bengaluru (India), Liverpool/Horsham (UK)"
   date_start = "2012-09-01"
   date_end = "2014-07-07"
   description = """
-  Performed the role of a Lead BizTalk Developer for a Major Insurance Client, RSA UK. Directly worked with Client’s E-Business team to ensure successful software implementation of a complex home insurance product.
+  Performed the role of a Lead BizTalk Developer for a Major UK Based Insurance Client . Directly worked with Client’s E-Business team to ensure successful software implementation of a complex home insurance product.
     
   Responsibilities included:
   
@@ -39,14 +39,14 @@ date_format = "January 2006"
 
 
 [[experience]]
-  title = "Senior Programmer (Software Engineer)"
+  title = "Senior Programmer"
   company = "Accenture"
   company_url = "https://www.accenture.com"
   location = "Bengaluru (India)"
   date_start = "2011-01-31"
   date_end = "2012-08-31"
   description = """
-  Performed the role of a BizTalk Developer for a Major Insurance Client, RSA UK. Worked under senior developers to ensure successful software implementation of given specifications.
+  Performed the role of a BizTalk Developer for a Major UK Based Insurance Client. Worked under senior developers to ensure successful software implementation of given specifications.
   
   Responsibilities included:
   
@@ -61,9 +61,9 @@ date_format = "January 2006"
   company_url = "https://www.tcs.com/"
   location = "Gurgaon (India)"
   date_start = "2008-10-20"
-  date_end = "2016-01-28"
+  date_end = "2011-01-28"
   description = """
-  Performed the role of Application Analyst for Microsoft BizTalk Integration environment of a major Airlines domain client. 
+  Performed the role of Application Analyst for Microsoft BizTalk Integration environment of a Major UK Based Airlines client. 
   Responsibilities included:
 
   * Application Support & Management
