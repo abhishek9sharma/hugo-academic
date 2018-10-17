@@ -10,6 +10,7 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
+     "Software Analytics",
      "Machine Learning",   
     "Natural Language Processing",
     "Empirical Software Engineering",
@@ -34,6 +35,8 @@ weight = 5
 
 Hey!
 
-I am a final year Ph.D. student at [School of Information Systems, Singapore Management University](https://sis.smu.edu.sg/), currently working with Associate Professor [David Lo](http://www.mysmu.edu/faculty/davidlo/) in the [SOAR group](https://soarsmu.github.io/).
+I am a final year Ph.D. candidate at [School of Information Systems, Singapore Management University](https://sis.smu.edu.sg/), currently working with Associate Professor [David Lo](http://www.mysmu.edu/faculty/davidlo/) in the [SOAR group](https://soarsmu.github.io/).
 
 I am a native of  a small Himalayan state called [Himachal Pradesh](https://en.wikipedia.org/wiki/Himachal_Pradesh) in India and have been born and brought up there till my graduation in 2008 from  [National Institute of Technology, Hamirpur](http://nith.ac.in/). My hobbies include watching and playing football and [running](https://www.strava.com/athletes/18520965) occasionally.
+
+##### I am currently open to new oppurtunities in both industry and academia. If you are interesetd in knowing more about me and my work please do contact me. 
