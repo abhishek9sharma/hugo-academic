@@ -67,6 +67,6 @@ date_format = "January 2006"
 
   * Application support & management
   * Coordinating with cross functional teams and third party vendors to ensure high availability of all the applications
-  * Requirement analysis for enhancements/bugs and to remove current issues and gaps.
+  * Requirement analysis for enhancements/bugs and to remove issues and gaps
   """
 +++
