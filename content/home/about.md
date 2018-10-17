@@ -20,7 +20,7 @@ weight = 5
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "Ph.D. candidate in Information Systems"
+  course = "Ph.D. candidate in Information Systems (Thesis submitted for evaluation)"
   institution = "School of Information Systems, Singapore Management University (SMU), Singapore"
   year = 2018
 
@@ -35,8 +35,8 @@ weight = 5
 
 Hey!
 
-I am a final year Ph.D. candidate at [School of Information Systems, Singapore Management University](https://sis.smu.edu.sg/), currently working with Associate Professor [David Lo](http://www.mysmu.edu/faculty/davidlo/) in the [SOAR group](https://soarsmu.github.io/).
+I am a final year Ph.D. candidate at [School of Information Systems, Singapore Management University](https://sis.smu.edu.sg/), currently working with Associate Professor [David Lo](http://www.mysmu.edu/faculty/davidlo/) in the [SOAR group](https://soarsmu.github.io/). I have submitted my Ph.D. thesis titled *Social Software Development: Insights and Solutions* for final evaluation.
 
-I am a native of  a small Himalayan state called [Himachal Pradesh](https://en.wikipedia.org/wiki/Himachal_Pradesh) in India and have been born and brought up there till my graduation in 2008 from  [National Institute of Technology, Hamirpur](http://nith.ac.in/). My hobbies include watching and playing football and [running](https://www.strava.com/athletes/18520965) occasionally.
+I am a native of  [Himachal Pradesh](https://en.wikipedia.org/wiki/Himachal_Pradesh), a small Himalayan state in India and have been born and brought up there till my graduation in 2008 from  [National Institute of Technology, Hamirpur](http://nith.ac.in/). My hobbies include watching and playing football and [running](https://www.strava.com/athletes/18520965) occasionally.
 
-##### I am currently open to new oppurtunities in both industry and academia. If you are interesetd in knowing more about me and my work please do contact me. 
+##### I am currently open to new oppurtunities in both industry and academia. If you are interested in knowing more about me and my work please do contact me. 
