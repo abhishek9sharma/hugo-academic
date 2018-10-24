@@ -39,4 +39,4 @@ I am a final year Ph.D. candidate at [School of Information Systems, Singapore M
 
 I am a native of  [Himachal Pradesh](https://en.wikipedia.org/wiki/Himachal_Pradesh), a small Himalayan state in India and have been born and brought up there till my graduation in 2008 from  [National Institute of Technology, Hamirpur](http://nith.ac.in/). My hobbies include watching and playing football and [running](https://www.strava.com/athletes/18520965) occasionally.
 
-##### I am open to new oppurtunities in both industry and academia. If you are interested in knowing more about me and my work please do contact me. 
+##### I am open to new oppurtunities. If you are interested in knowing more about me and my work please do contact me. 
