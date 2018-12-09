@@ -20,7 +20,7 @@ authors = ["**Abhishek Sharma**", "Yuan Tian", "Agus Sulistya", "Dinusha Wijedas
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "Accepted for Publication In *Transactions on Software Engineering and Methodology (TOSEM)*, ACM"
+publication = "*Transactions on Software Engineering and Methodology (TOSEM)*, 27, 4, Article 16 (October 2018), ACM"
 publication_short = ""
 
 # Abstract and optional shortened version.
