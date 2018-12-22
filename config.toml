@@ -306,6 +306,11 @@ enableGitInfo = false
   url = "#experience"
   weight = 4
 
+[[menu.main]]
+  name = "Certifications"
+  url = "#certifications"
+  weight = 5
+
 #[[menu.main]]
 #  name = "Projects"
 #  url = "#projects"

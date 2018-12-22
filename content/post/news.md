@@ -10,4 +10,4 @@ summary = "Paper accepted for publication in TOSEM"
 tags=['news']
 
 +++
-Our paper [Recommending Who to Follow in the Software Engineering Twitter Spacee](/publication/software-experts/)  has been selected for publication in the journal *Transactions on Software Engineering and Methodology (TOSEM)*.
+Our paper [Recommending Who to Follow in the Software Engineering Twitter Space](/publication/software-experts/)  has been selected for publication in the journal *Transactions on Software Engineering and Methodology (TOSEM)*.
