@@ -40,6 +40,7 @@ date_format = "Jan 2006"
 - [Mathematics for Machine Learning](https://www.coursera.org/account/accomplishments/specialization/YTB2NE3EZ7QW)
  , a 3-course specialization by Imperial College London
 - [Machine Learning](https://www.coursera.org/account/accomplishments/certificate/ZV38P4V75J37) by Stanford University
+-  [Deep Learning Specialization](https://www.coursera.org/account/accomplishments/specialization/9LMXMNUM4JYZ), a 5-course specialization by [deeplearning.ai](https://www.deeplearning.ai/)
   """
 
   [[course]]
