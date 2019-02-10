@@ -10,7 +10,7 @@ subtitle = ""
 #tags_include = ['SANER']
 
 # Order that this section will appear in.
-weight = 7
+weight = 3
 
 # Number of publications to list.
 count = 10
@@ -32,6 +32,7 @@ list_format = 3
 #  5: Book
 #  6: Book chapter
 publication_type = "-1"
+
 
 
 

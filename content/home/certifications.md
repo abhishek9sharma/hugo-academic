@@ -7,7 +7,7 @@ title = "Certifications"
 #subtitle = "Online Certifications"
 
 # Order that this section will appear in.
-weight = 8
+weight = 5
 
 # Date format for course
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
