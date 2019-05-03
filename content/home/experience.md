@@ -21,9 +21,9 @@ date_format = "January 2006"
 
 [[experience]]
   title = "Research Fellow"
-  company = "Living Analytics Research Centre(LARC)"
+  company = "Living Analytics Research Centre (LARC)"
   company_url = "https://larc.smu.edu.sg/"
-  location = "Bengaluru (India), Liverpool/Horsham (UK)"
+  location = "Singapore"
   date_start = "2019-05-02"
   
 
