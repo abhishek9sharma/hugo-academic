@@ -32,10 +32,8 @@ math = false
 
 +++
 
-Many times I have to search for repositories at GitHub which may fill a coding requirment I have. During this process I have realized that I also go on looking at the forked versions of a repository in order to find something that matches my exact requirment. This app helps me with this process by automatically fetching the forks of a given repository and listing how far or behind they are from the parent fork.
+Many times I have to search for repositories at GitHub which may fill a coding requirment I have. During this process I have realized that I also go on looking at the forked versions of a repository in order to find something that matches my exact requirment. This [app](https://forkinfo.herokuapp.com/) helps me with this process by automatically fetching the forks of a given repository and listing how far or behind they are from the parent fork. You can find the source code of the application [here](https://github.com/abhishek9sharma/ForkInfo)
 
-[Source Code](https://github.com/abhishek9sharma/ForkInfo)
 
-[Application](https://forkinfo.herokuapp.com/)
 
 
