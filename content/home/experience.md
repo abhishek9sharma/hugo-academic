@@ -34,6 +34,9 @@ date_format = "January 2006"
   location = "Singapore"
   date_start = "2014-08-18"
   date_end = "2019-01-18"
+  description = """
+  Ph.D. candidate in Information Systems with a research focus on developing methods and techniques to solve challenges faced by software developers while using various social media channels. Research experience in applying information retrieval, machine learning, and natural language processing techniques to solve problems related to software engineering. 
+  """
  
 [[experience]]
   title = "Analyst Programmer"
