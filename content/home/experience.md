@@ -20,6 +20,22 @@ date_format = "January 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Research Fellow"
+  company = "Living Analytics Research Centre(LARC)"
+  company_url = "https://larc.smu.edu.sg/"
+  location = "Bengaluru (India), Liverpool/Horsham (UK)"
+  date_start = "2019-05-02"
+  
+
+[[experience]]
+  title = "PhD Candidate"
+  company = "School of Information Systems, Singapore Management University (SMU)"
+  company_url = "https://sis.smu.edu.sg/about/students/phd-students/phd-graduates-profile"
+  location = "Singapore"
+  date_start = "2014-08-18"
+  date_end = "2019-01-18"
+ 
+[[experience]]
   title = "Analyst Programmer"
   company = "Accenture"
   company_url = "https://www.accenture.com"

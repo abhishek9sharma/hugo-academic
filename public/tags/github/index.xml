@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>github on Abhishek Sharma</title>
+    <link>/tags/github/</link>
+    <description>Recent content in github on Abhishek Sharma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 10 Feb 2019 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fork Information</title>
+      <link>/opensource/forkinfo/</link>
+      <pubDate>Sun, 10 Feb 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/opensource/forkinfo/</guid>
+      <description>Many times I have to search for repositories at GitHub which may fill a coding requirment I have. During this process I have realized that I also go on looking at the forked versions of a repository in order to find something that matches my exact requirment. This app helps me with this process by automatically fetching the forks of a given repository and listing how far or behind they are from the parent fork.</description>
+    </item>
+    
+  </channel>
+</rss>
