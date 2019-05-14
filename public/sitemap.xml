@@ -12,6 +12,14 @@
     
     <url>
     
+      <loc>/opensource/nyctaxiservice/</loc>
+      <lastmod>2019-02-10T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/publication/software-experts/</loc>
       <lastmod>2018-09-27T00:00:00+08:00</lastmod>
     </url>
@@ -316,6 +324,33 @@
     
       <loc>/tags/</loc>
       <lastmod>2015-10-01T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/bigquery/</loc>
+      <lastmod>2019-02-10T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/flask/</loc>
+      <lastmod>2019-02-10T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/flask-web-service/</loc>
+      <lastmod>2019-02-10T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     

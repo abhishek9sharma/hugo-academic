@@ -18,7 +18,7 @@ summary = "A flask web app to get information about forks of a repository."
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["github", "productivity"]
+tags = ["github", "productivity","flask"]
 
 # Optional external URL for project (replaces project detail page).
 #external_link = "https://forkinfo.herokuapp.com/"

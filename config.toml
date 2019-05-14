@@ -52,14 +52,14 @@ enableGitInfo = false
 
   # Your details.
   name = "Abhishek Sharma"
-  role = "Ph.D. candidate in Information Systems"
+  role = "Research Fellow"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Singapore Management University", url = "" } ]
+  organizations = [ {name ="Living Analytics Research Center", url="https://larc.smu.edu.sg/"}]#, { name = "Singapore Management University", url = "" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "AbhiSOARmain.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "new.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   
   # Details for the Contact Widget
   email = "abhishek9sharma@outlook.com"

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>flask-web-service on Abhishek Sharma</title>
+    <link>/tags/flask-web-service/</link>
+    <description>Recent content in flask-web-service on Abhishek Sharma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 10 Feb 2019 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/flask-web-service/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>nyctaxiservice</title>
+      <link>/opensource/nyctaxiservice/</link>
+      <pubDate>Sun, 10 Feb 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/opensource/nyctaxiservice/</guid>
+      <description>This is an example of a web service which exposes the data in a google big-query table as a web service. Currently it provides 3 endpoints which help to query data present in the NYC Taxi Dataset. You can find the source code of the application here. I will deploy a live working app soon.</description>
+    </item>
+    
+  </channel>
+</rss>

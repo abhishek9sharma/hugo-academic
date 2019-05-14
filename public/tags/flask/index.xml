@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Opensources on Abhishek Sharma</title>
-    <link>/opensource/</link>
-    <description>Recent content in Opensources on Abhishek Sharma</description>
+    <title>flask on Abhishek Sharma</title>
+    <link>/tags/flask/</link>
+    <description>Recent content in flask on Abhishek Sharma</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 10 Feb 2019 00:00:00 +0800</lastBuildDate>
     
-	<atom:link href="/opensource/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/flask/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
