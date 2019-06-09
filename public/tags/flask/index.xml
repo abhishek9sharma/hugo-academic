@@ -27,7 +27,8 @@
       <pubDate>Sun, 10 Feb 2019 00:00:00 +0800</pubDate>
       
       <guid>/opensource/nyctaxiservice/</guid>
-      <description>This is an example of a web service which exposes the data in a google big-query table as a web service. Currently it provides 3 endpoints which help to query data present in the NYC Taxi Dataset. You can find the source code of the application here. I will deploy a live working app soon.</description>
+      <description>This is an example of a web service which exposes the data in a google big-query table as a web service. Currently it provides 3 endpoints which help to query data present in the NYC Taxi Dataset. You can find the source code of the application here. A demo has been deployed at nyxtaxiservice.
+Note: On live demo at nyxtaxiservice there are currently some issues with endpoints avg_fare_by_s2id and avg_speed_24hrs_for_date</description>
     </item>
     
   </channel>
