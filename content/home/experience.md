@@ -75,7 +75,7 @@ date_format = "January 2006"
 
 
 [[experience]]
-  title = "Assistant Software Engineer"
+  title = "Assistant Systems Engineer"
   company = "Tata Consultancy Services Ltd."
   company_url = "https://www.tcs.com/"
   location = "Gurgaon (India)"

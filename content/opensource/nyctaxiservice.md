@@ -32,7 +32,7 @@ math = false
 
 +++
 
-This is an example of a web service which exposes the data in a google big-query table as a web service. Currently it provides 3 endpoints which help to query data present in the [NYC Taxi Dataset](https://console.cloud.google.com/marketplace/details/city-of-new-york/nyc-tlc-trips?pli=1). You can find the source code of the application [here](https://github.com/abhishek9sharma/nyctaxiserver). I will deploy a live working app soon.
+This is an example of a web service which exposes the data in a google big-query table as a web service. Currently it provides 3 endpoints which help to query data present in the [NYC Taxi Dataset](https://console.cloud.google.com/marketplace/details/city-of-new-york/nyc-tlc-trips?pli=1). You can find the source code of the application [here](https://github.com/abhishek9sharma/nyctaxiserver).  A demo has been deployed at [nyxtaxiservice](https://nyctaxitripsinfo.herokuapp.com/).
 
 
 
