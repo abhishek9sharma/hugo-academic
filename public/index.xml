@@ -28,7 +28,7 @@
       <guid>/opensource/nyctaxiservice/</guid>
       <description>&lt;p&gt;This is an example of a web service which exposes the data in a google big-query table as a web service. Currently it provides 3 endpoints which help to query data present in the &lt;a href=&#34;https://console.cloud.google.com/marketplace/details/city-of-new-york/nyc-tlc-trips?pli=1&#34; target=&#34;_blank&#34;&gt;NYC Taxi Dataset&lt;/a&gt;. You can find the source code of the application &lt;a href=&#34;https://github.com/abhishek9sharma/nyctaxiserver&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.  A demo has been deployed at &lt;a href=&#34;https://nyctaxitripsinfo.herokuapp.com/&#34; target=&#34;_blank&#34;&gt;nyxtaxiservice&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Note: On live demo at &lt;a href=&#34;https://nyctaxitripsinfo.herokuapp.com/&#34; target=&#34;_blank&#34;&gt;nyxtaxiservice&lt;/a&gt; there are currently some issues with endpoints &lt;code&gt;avg_fare_by_s2id&lt;/code&gt;  and &lt;code&gt;avg_speed_24hrs_for_date&lt;/code&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note: On live demo at &lt;a href=&#34;https://nyctaxitripsinfo.herokuapp.com/&#34; target=&#34;_blank&#34;&gt;nyxtaxiservice&lt;/a&gt; there are currently some issues with the endpoint &lt;code&gt;avg_fare_by_s2id&lt;/code&gt;&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
