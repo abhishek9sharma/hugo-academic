@@ -301,8 +301,8 @@ enableGitInfo = false
   weight = 2
 
 [[menu.main]]
-  name = "Open Source"
-  url = "#opensource"
+  name = "Software"
+  url = "#opensourcesoftware"
   weight = 4
 
 [[menu.main]]
