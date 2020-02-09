@@ -25,6 +25,7 @@ date_format = "January 2006"
   company_url = "https://larc.smu.edu.sg/"
   location = "Singapore"
   date_start = "2019-05-02"
+  date_end = "2019-12-11"
   
 
 [[experience]]

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2 on Abhishek Sharma</title>
-    <link>/publication_types/2/</link>
-    <description>Recent content in 2 on Abhishek Sharma</description>
+    <title>2019 on Abhishek Sharma</title>
+    <link>/tags/2019/</link>
+    <description>Recent content in 2019 on Abhishek Sharma</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Thu, 27 Sep 2018 00:00:00 +0800</lastBuildDate>
     
-	<atom:link href="/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/2019/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       <pubDate>Thu, 27 Sep 2018 00:00:00 +0800</pubDate>
       
       <guid>/publication/sieve/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recommending Who to Follow in the Software Engineering Twitter Space</title>
-      <link>/publication/software-experts/</link>
-      <pubDate>Thu, 27 Sep 2018 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/software-experts/</guid>
       <description></description>
     </item>
     

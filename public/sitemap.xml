@@ -20,6 +20,14 @@
     
     <url>
     
+      <loc>/publication/sieve/</loc>
+      <lastmod>2018-09-27T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/publication/software-experts/</loc>
       <lastmod>2018-09-27T00:00:00+08:00</lastmod>
     </url>
@@ -201,6 +209,15 @@
     
     <url>
     
+      <loc>/tags/2019/</loc>
+      <lastmod>2018-09-27T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/tags/ase/</loc>
       <lastmod>2017-11-11T00:00:00+08:00</lastmod>
       <priority>0</priority>
@@ -229,6 +246,15 @@
     
       <loc>/tags/ease/</loc>
       <lastmod>2017-06-15T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/emse/</loc>
+      <lastmod>2018-09-27T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
