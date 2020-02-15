@@ -1,8 +1,8 @@
 
 
 +++
-title = "Recommending Who to Follow in the Software Engineering Twitter Space"
-date = 2018-09-27T00:00:00
+title = "SIEVE: Helping Developers Sift Wheat from Chaff via Cross-Platform Analysis"
+date = 2019-09-27T00:00:00
 draft = false
 tags = ["EMSE", "2019"]
 tags_weight = 22
