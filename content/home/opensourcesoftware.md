@@ -8,7 +8,7 @@ title = "Open Source Software"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 4
+weight = 5
 
 # Content.
 # Display content from the following folder.

@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sat, 11 Nov 2017 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2020 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Machine Learning Approach for Vulnerability Curation</title>
+      <link>/publication/vulncur/</link>
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/vulncur/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>APIBot: Question Answering Bot for API documentation</title>

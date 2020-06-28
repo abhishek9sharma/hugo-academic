@@ -13,9 +13,18 @@
     
     
     <item>
-      <title>Recommending Who to Follow in the Software Engineering Twitter Space</title>
+      <title>A Machine Learning Approach for Vulnerability Curation</title>
+      <link>/publication/vulncur/</link>
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/vulncur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SIEVE: Helping Developers Sift Wheat from Chaff via Cross-Platform Analysis</title>
       <link>/publication/sieve/</link>
-      <pubDate>Thu, 27 Sep 2018 00:00:00 +0800</pubDate>
+      <pubDate>Fri, 27 Sep 2019 00:00:00 +0800</pubDate>
       
       <guid>/publication/sieve/</guid>
       <description></description>

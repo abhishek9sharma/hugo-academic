@@ -20,6 +20,17 @@ date_format = "January 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Senior Software Engineer (Machine Learning)"
+  company = "Veracode"
+  company_url = "hhttps://www.veracode.com/"
+  location = "Singapore"
+  date_start = "2019-12-12"
+  #date_end = "2019-12-11"
+  description="""
+  Current role requires developing prediction services, which use machine learning models in order to filter and curate data from open source software repositories such as GitHub, mailing lists etc. Also involved in researching data science and machine learning use cases to drive product improvement.
+  """
+
+[[experience]]
   title = "Research Fellow"
   company = "Living Analytics Research Centre (LARC)"
   company_url = "https://larc.smu.edu.sg/"

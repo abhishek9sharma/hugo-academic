@@ -11,6 +11,24 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>A Machine Learning Approach for Vulnerability Curation</title>
+      <link>/publication/vulncur/</link>
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/vulncur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SIEVE: Helping Developers Sift Wheat from Chaff via Cross-Platform Analysis</title>
+      <link>/publication/sieve/</link>
+      <pubDate>Fri, 27 Sep 2019 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/sieve/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Fork Information</title>
       <link>/opensource/forkinfo/</link>
       <pubDate>Sun, 10 Feb 2019 00:00:00 +0800</pubDate>
@@ -30,15 +48,6 @@
 
 &lt;p&gt;&lt;em&gt;Note: On live demo at &lt;a href=&#34;https://nyctaxitripsinfo.herokuapp.com/&#34; target=&#34;_blank&#34;&gt;nyxtaxiservice&lt;/a&gt; there are currently some issues with the endpoint &lt;code&gt;avg_fare_by_s2id&lt;/code&gt;&lt;/em&gt;&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Recommending Who to Follow in the Software Engineering Twitter Space</title>
-      <link>/publication/sieve/</link>
-      <pubDate>Thu, 27 Sep 2018 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/sieve/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -149,15 +158,6 @@
       <pubDate>Sun, 15 Mar 2015 00:00:00 +0800</pubDate>
       
       <guid>/publication/nirmal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/project/ease/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/project/ease/</guid>
       <description></description>
     </item>
     

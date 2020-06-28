@@ -1,7 +1,7 @@
 +++
 title = "Harnessing Twitter to support serendipitous learning of developers"
 date = 2017-02-22T00:00:00
-tags = ["SANER", "2017"]
+tags = ["SANER", "2017","Awards"]
 tags_weight = 22
 
 draft = false
@@ -59,7 +59,9 @@ url_video = ""
 url_poster = ""
 url_source = ""
 url_custom = [{name = "SANER", url = "tags/saner"}, 
-              {name = "2017", url = "tags/2017"}]
+              {name = "2017", url = "tags/2017"},
+               {name="Best Early Research Achievement Paper award", url ="tags/awards"}]
+            
 
 
 # Custom links (optional).

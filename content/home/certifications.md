@@ -7,7 +7,7 @@ title = "Certifications"
 #subtitle = "Online Certifications"
 
 # Order that this section will appear in.
-weight = 5
+weight = 4
 
 # Date format for course
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
@@ -41,6 +41,9 @@ date_format = "Jan 2006"
  , a 3-course specialization by Imperial College London
 - [Machine Learning](https://www.coursera.org/account/accomplishments/certificate/ZV38P4V75J37) by Stanford University
 -  [Deep Learning Specialization](https://www.coursera.org/account/accomplishments/specialization/9LMXMNUM4JYZ), a 5-course specialization by [deeplearning.ai](https://www.deeplearning.ai/)
+- [Natural Language Processing with Classification and Vector Spaces](https://www.coursera.org/account/accomplishments/certificate/RKBWGMEL5PED) by [deeplearning.ai](https://www.deeplearning.ai/)
+- [Natural Language Processing with Probabilistic Models](https://www.coursera.org/account/accomplishments/certificate/763FW8H7V5MD) by [deeplearning.ai](https://www.deeplearning.ai/)
+- [AI for Medical Diagnosis](https://www.coursera.org/account/accomplishments/certificate/2VP5BPSYSNTQ) by [deeplearning.ai](https://www.deeplearning.ai/)
   """
 
   [[course]]

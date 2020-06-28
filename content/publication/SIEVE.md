@@ -48,8 +48,8 @@ projects = []
 
 
 # Links (optional).
-url_pdf = "https://arxiv.org/pdf/1810.13144.pdf"
-url_preprint = ""
+url_pdf = "https://link.springer.com/article/10.1007/s10664-019-09775-w"
+url_preprint = "https://arxiv.org/pdf/1810.13144.pdf"
 url_code = ""
 url_dataset = ""
 url_project = ""
