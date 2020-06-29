@@ -4,7 +4,7 @@
 title = "SIEVE: Helping Developers Sift Wheat from Chaff via Cross-Platform Analysis"
 date = 2019-09-27T00:00:00
 draft = false
-tags = ["EMSE", "2019"]
+tags = ["EMSE", "2020"]
 tags_weight = 22
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -58,7 +58,7 @@ url_video = ""
 url_poster = ""
 url_source = ""
 url_custom = [{name = "EMSE", url = "tags/emse/"},
-              {name = "2019", url = "tags/2019/"}]
+              {name = "2019", url = "tags/2020/"}]
 
 
 # Custom links (optional).
