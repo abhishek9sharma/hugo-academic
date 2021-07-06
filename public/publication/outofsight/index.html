@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 2.4.0">
+  <meta name="generator" content="Hugo 0.49" />
+  <meta name="author" content="Abhishek Sharma">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="Software developers often use open-source libraries in their project to improve development speed. However, such libraries may contain security vulnerabilities, and this has resulted in several high-profile incidents in recent years. As usage of open-source libraries grows, understanding of these dependency vulnerabilities becomes increasingly important. In this work, we analyze vulnerabilities in open-source libraries used by 450 software projects written in Java, Python, and Ruby. Our goal is to examine types, distribution, severity, and persistence of the vulnerabilities, along with relationships between their prevalence and project as well as commit attributes. Our data is obtained by scanning versions of the sample projects after each commit made between November 1, 2017 and October 31, 2018 using an industrial software composition analysis tool, which provides information such as library names and versions, dependency types (direct or transitive), and known vulnerabilities. Among other findings, we found that project activity level, popularity, and developer experience do not translate into better or worse handling of dependency vulnerabilities. We also found “Denial of Service” and “Information Disclosure” types of vulnerabilities being common across the languages studied. Further, we found that most dependency vulnerabilities persist throughout the observation period (mean of 78.4%, 97.7%, and 66.4% for publicly-known vulnerabilities in our Java, Python, and Ruby datasets respectively), and the resolved ones take 3-5 months to fix. Our results highlight the importance of managing the number of dependencies and performing timely updates, and indicate some areas that can be prioritized to improve security in wide range of projects, such as prevention and mitigation of Denial-of-Service attacks.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/publication/outofsight/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href=//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono>
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-127723122-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Abhishek Sharma">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Abhishek Sharma">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/publication/outofsight/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@Juggernaut9NITH">
+  <meta property="twitter:creator" content="@Juggernaut9NITH">
+  
+  <meta property="og:site_name" content="Abhishek Sharma">
+  <meta property="og:url" content="/publication/outofsight/">
+  <meta property="og:title" content="Out of sight, out of mind? How vulnerable dependencies affect open-source projects | Abhishek Sharma">
+  <meta property="og:description" content="Software developers often use open-source libraries in their project to improve development speed. However, such libraries may contain security vulnerabilities, and this has resulted in several high-profile incidents in recent years. As usage of open-source libraries grows, understanding of these dependency vulnerabilities becomes increasingly important. In this work, we analyze vulnerabilities in open-source libraries used by 450 software projects written in Java, Python, and Ruby. Our goal is to examine types, distribution, severity, and persistence of the vulnerabilities, along with relationships between their prevalence and project as well as commit attributes. Our data is obtained by scanning versions of the sample projects after each commit made between November 1, 2017 and October 31, 2018 using an industrial software composition analysis tool, which provides information such as library names and versions, dependency types (direct or transitive), and known vulnerabilities. Among other findings, we found that project activity level, popularity, and developer experience do not translate into better or worse handling of dependency vulnerabilities. We also found “Denial of Service” and “Information Disclosure” types of vulnerabilities being common across the languages studied. Further, we found that most dependency vulnerabilities persist throughout the observation period (mean of 78.4%, 97.7%, and 66.4% for publicly-known vulnerabilities in our Java, Python, and Ruby datasets respectively), and the resolved ones take 3-5 months to fix. Our results highlight the importance of managing the number of dependencies and performing timely updates, and indicate some areas that can be prioritized to improve security in wide range of projects, such as prevention and mitigation of Denial-of-Service attacks.">
+  
+  
+    
+  <meta property="og:image" content="/img/icon-192.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2021-04-21T00:00:00&#43;08:00">
+  
+  <meta property="article:modified_time" content="2021-04-21T00:00:00&#43;08:00">
+  
+
+  
+
+  
+
+  <title>Out of sight, out of mind? How vulnerable dependencies affect open-source projects | Abhishek Sharma</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Abhishek Sharma</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#publications">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#experience">
+            
+            <span>Experience</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#opensourcesoftware">
+            
+            <span>Software</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#certifications">
+            
+            <span>Certifications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">Out of sight, out of mind? How vulnerable dependencies affect open-source projects</h1>
+    <span class="pub-authors" itemprop="author">
+      
+      Gede Artha Azriadi Prana, <strong>Abhishek Sharma</strong>, Lwin Khin Shar, Darius Foo, Andrew E. Santosa, Asankhaya Sharma, David Lo
+      
+    </span>
+    <span class="float-right">
+      
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Out%20of%20sight%2c%20out%20of%20mind%3f%20How%20vulnerable%20dependencies%20affect%20open-source%20projects&amp;url=%2fpublication%2foutofsight%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fpublication%2foutofsight%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpublication%2foutofsight%2f&amp;title=Out%20of%20sight%2c%20out%20of%20mind%3f%20How%20vulnerable%20dependencies%20affect%20open-source%20projects"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fpublication%2foutofsight%2f&amp;title=Out%20of%20sight%2c%20out%20of%20mind%3f%20How%20vulnerable%20dependencies%20affect%20open-source%20projects"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Out%20of%20sight%2c%20out%20of%20mind%3f%20How%20vulnerable%20dependencies%20affect%20open-source%20projects&amp;body=%2fpublication%2foutofsight%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+    </span>
+
+    
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Software developers often use open-source libraries in their project to improve development speed. However, such libraries may contain security vulnerabilities, and this has resulted in several high-profile incidents in recent years. As usage of open-source libraries grows, understanding of these dependency vulnerabilities becomes increasingly important. In this work, we analyze vulnerabilities in open-source libraries used by 450 software projects written in Java, Python, and Ruby. Our goal is to examine types, distribution, severity, and persistence of the vulnerabilities, along with relationships between their prevalence and project as well as commit attributes. Our data is obtained by scanning versions of the sample projects after each commit made between November 1, 2017 and October 31, 2018 using an industrial software composition analysis tool, which provides information such as library names and versions, dependency types (direct or transitive), and known vulnerabilities. Among other findings, we found that project activity level, popularity, and developer experience do not translate into better or worse handling of dependency vulnerabilities. We also found “Denial of Service” and “Information Disclosure” types of vulnerabilities being common across the languages studied. Further, we found that most dependency vulnerabilities persist throughout the observation period (mean of 78.4%, 97.7%, and 66.4% for publicly-known vulnerabilities in our Java, Python, and Ruby datasets respectively), and the resolved ones take 3-5 months to fix. Our results highlight the importance of managing the number of dependencies and performing timely updates, and indicate some areas that can be prioritized to improve security in wide range of projects, such as prevention and mitigation of Denial-of-Service attacks.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            <a href="/publication/#2">
+              Journal article
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><em>Empirical Software Engineering (ESEM)</em>, Springer</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9" itemprop="datePublished">
+            April, 2021
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-sm-none space-below"></div>
+
+    <div class="row" style="padding-top: 10px">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading" style="line-height:34px;">Links</div>
+          <div class="col-12 col-md-9">
+
+            
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://asankhaya.github.io/pdf/Out-of-Sight-Out-of-Mind.pdf" target="_blank" rel="noopener">
+  Preprint
+</a>
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://link.springer.com/article/10.1007/s10664-021-09959-3" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="/tags/emse/" target="_blank" rel="noopener">
+  EMSE
+</a>
+
+<a class="btn btn-outline-primary my-1 mr-1" href="/tags/2021/" target="_blank" rel="noopener">
+  2021
+</a>
+
+
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-sm-none space-below"></div>
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/emse/">EMSE</a>
+  
+  <a class="badge badge-light" href="/tags/2021/">2021</a>
+  
+</div>
+
+
+
+
+  </div>
+</div>
+
+
+
+<div class="container">
+  <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2018 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        CommonHTML: { linebreaks: { automatic: true } },
+        tex2jax: { inlineMath: [ ['$', '$'], ['\\(','\\)'] ], displayMath: [ ['$$','$$'], ['\\[', '\\]'] ], processEscapes: false },
+        TeX: { noUndefined: { attributes: { mathcolor: 'red', mathbackground: '#FFEEEE', mathsize: '90%' } } },
+        messageStyle: 'none'
+      });
+    </script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "Search Results",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    <script src="/js/search.js"></script>
+    
+
+    
+    
+
+  </body>
+</html>
+

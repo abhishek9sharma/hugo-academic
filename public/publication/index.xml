@@ -13,6 +13,24 @@
     
     
     <item>
+      <title>Post2Vec: Learning Distributed Representations of Stack Overflow Posts</title>
+      <link>/publication/post2vec/</link>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/post2vec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Out of sight, out of mind? How vulnerable dependencies affect open-source projects</title>
+      <link>/publication/outofsight/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/outofsight/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A Machine Learning Approach for Vulnerability Curation</title>
       <link>/publication/vulncur/</link>
       <pubDate>Fri, 26 Jun 2020 00:00:00 +0800</pubDate>

@@ -11,6 +11,24 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Post2Vec: Learning Distributed Representations of Stack Overflow Posts</title>
+      <link>/publication/post2vec/</link>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/post2vec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Out of sight, out of mind? How vulnerable dependencies affect open-source projects</title>
+      <link>/publication/outofsight/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/outofsight/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A Machine Learning Approach for Vulnerability Curation</title>
       <link>/publication/vulncur/</link>
       <pubDate>Fri, 26 Jun 2020 00:00:00 +0800</pubDate>
@@ -140,24 +158,6 @@
       <pubDate>Thu, 05 May 2016 00:00:00 +0800</pubDate>
       
       <guid>/publication/temporalkernel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>What&#39;s Hot in Software Engineering Twitter Space?</title>
-      <link>/publication/twitterevents/</link>
-      <pubDate>Thu, 01 Oct 2015 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/twitterevents/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nirmal: Automatic identification of software relevant tweets leveraging language model</title>
-      <link>/publication/nirmal/</link>
-      <pubDate>Sun, 15 Mar 2015 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/nirmal/</guid>
       <description></description>
     </item>
     
