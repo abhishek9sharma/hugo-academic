@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>/opensource/mlops/</loc>
+      <lastmod>2021-12-07T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/publication/post2vec/</loc>
       <lastmod>2021-07-06T00:00:00+08:00</lastmod>
     </url>
@@ -323,7 +331,7 @@
     <url>
     
       <loc>/opensource/</loc>
-      <lastmod>2019-02-10T00:00:00+08:00</lastmod>
+      <lastmod>2021-12-07T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -426,6 +434,15 @@
     
     <url>
     
+      <loc>/tags/docker/</loc>
+      <lastmod>2021-12-07T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/tags/flask/</loc>
       <lastmod>2019-02-10T00:00:00+08:00</lastmod>
       <priority>0</priority>
@@ -453,6 +470,24 @@
     
     <url>
     
+      <loc>/tags/machine-learning/</loc>
+      <lastmod>2021-12-07T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/ml-ops/</loc>
+      <lastmod>2021-12-07T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/tags/news/</loc>
       <lastmod>2018-10-30T00:00:00+08:00</lastmod>
       <priority>0</priority>
@@ -464,6 +499,15 @@
     
       <loc>/tags/productivity/</loc>
       <lastmod>2019-02-10T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/tensorflow/</loc>
+      <lastmod>2021-12-07T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     

@@ -175,6 +175,15 @@
     </item>
     
     <item>
+      <title>docker</title>
+      <link>/tags/docker/</link>
+      <pubDate>Tue, 07 Dec 2021 00:00:00 +0800</pubDate>
+      
+      <guid>/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>flask</title>
       <link>/tags/flask/</link>
       <pubDate>Sun, 10 Feb 2019 00:00:00 +0800</pubDate>
@@ -202,6 +211,24 @@
     </item>
     
     <item>
+      <title>machine-learning</title>
+      <link>/tags/machine-learning/</link>
+      <pubDate>Tue, 07 Dec 2021 00:00:00 +0800</pubDate>
+      
+      <guid>/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ml-ops</title>
+      <link>/tags/ml-ops/</link>
+      <pubDate>Tue, 07 Dec 2021 00:00:00 +0800</pubDate>
+      
+      <guid>/tags/ml-ops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>news</title>
       <link>/tags/news/</link>
       <pubDate>Sat, 01 Oct 2016 00:00:00 +0800</pubDate>
@@ -216,6 +243,15 @@
       <pubDate>Sun, 10 Feb 2019 00:00:00 +0800</pubDate>
       
       <guid>/tags/productivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tensorflow</title>
+      <link>/tags/tensorflow/</link>
+      <pubDate>Tue, 07 Dec 2021 00:00:00 +0800</pubDate>
+      
+      <guid>/tags/tensorflow/</guid>
       <description></description>
     </item>
     

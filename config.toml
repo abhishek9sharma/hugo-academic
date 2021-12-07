@@ -112,7 +112,7 @@ enableGitInfo = false
   sharing_image = ""
 
   # Twitter username (without @). Used when a vistor shares your site on Twitter.
-  twitter = "Juggernaut9NITH"
+  twitter = "abhishek9sh"
 
   # Diplay a logo in navigation bar rather than title (optional).
   #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
@@ -245,7 +245,7 @@ enableGitInfo = false
   [[params.social]]
     icon = "twitter"
     icon_pack = "fab"
-    link = "//twitter.com/Juggernaut9NITH"
+    link = "//twitter.com/abhishek9sh"
 
   [[params.social]]
     icon = "google-scholar"

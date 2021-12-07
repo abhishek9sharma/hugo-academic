@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 10 Feb 2019 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 07 Dec 2021 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="/opensource/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>mlopsdemo</title>
+      <link>/opensource/mlops/</link>
+      <pubDate>Tue, 07 Dec 2021 00:00:00 +0800</pubDate>
+      
+      <guid>/opensource/mlops/</guid>
+      <description>A mini Dockerized ML system with MLOPS capabilities (train/deploy). It can train/deploy models for recommendation/classification given user+stores click interaction data set and automatically deploy models to be served by a simple python web API end point. You can find the source code of the application here</description>
+    </item>
     
     <item>
       <title>Fork Information</title>

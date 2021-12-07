@@ -11,6 +11,16 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>mlopsdemo</title>
+      <link>/opensource/mlops/</link>
+      <pubDate>Tue, 07 Dec 2021 00:00:00 +0800</pubDate>
+      
+      <guid>/opensource/mlops/</guid>
+      <description>&lt;p&gt;A mini Dockerized ML system with MLOPS capabilities (train/deploy). It can train/deploy models for recommendation/classification given user+stores click interaction data set and automatically deploy models to be served by a simple python web API end point. You can find the source code of the application &lt;a href=&#34;https://github.com/abhishek9sharma/recsysdemo&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Post2Vec: Learning Distributed Representations of Stack Overflow Posts</title>
       <link>/publication/post2vec/</link>
       <pubDate>Tue, 06 Jul 2021 00:00:00 +0800</pubDate>
@@ -150,15 +160,6 @@
       <guid>/post/news/</guid>
       <description>&lt;p&gt;Our paper &lt;a href=&#34;/publication/software-experts/&#34;&gt;Recommending Who to Follow in the Software Engineering Twitter Space&lt;/a&gt;  has been selected for publication in the journal &lt;em&gt;Transactions on Software Engineering and Methodology (TOSEM)&lt;/em&gt;.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Temporal kernel descriptors for learning with time-sensitive patterns?</title>
-      <link>/publication/temporalkernel/</link>
-      <pubDate>Thu, 05 May 2016 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/temporalkernel/</guid>
-      <description></description>
     </item>
     
   </channel>
