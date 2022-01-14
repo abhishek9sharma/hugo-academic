@@ -46,7 +46,7 @@ projects = []
 
 # Links (optional).
 url_pdf = ""
-url_preprint = "files/preprints/hermess.pdf"
+url_preprint = "files/preprints/hermes.pdf"
 url_code = "https://github.com/soarsmu/HERMES"
 url_dataset = ""
 url_project = ""
