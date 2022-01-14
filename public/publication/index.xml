@@ -13,6 +13,24 @@
     
     
     <item>
+      <title>Analyzing Offline Social Engagements: AnEmpirical Study of Meetup Events Related to Software Development</title>
+      <link>/publication/meetup/</link>
+      <pubDate>Fri, 14 Jan 2022 01:00:00 +0800</pubDate>
+      
+      <guid>/publication/meetup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HERMES: Using Commit-Issue Linking to Detect Vulnerability-Fixing Commits</title>
+      <link>/publication/vcur2/</link>
+      <pubDate>Fri, 14 Jan 2022 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/vcur2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Post2Vec: Learning Distributed Representations of Stack Overflow Posts</title>
       <link>/publication/post2vec/</link>
       <pubDate>Tue, 06 Jul 2021 00:00:00 +0800</pubDate>

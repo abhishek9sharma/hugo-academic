@@ -11,6 +11,24 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Analyzing Offline Social Engagements: AnEmpirical Study of Meetup Events Related to Software Development</title>
+      <link>/publication/meetup/</link>
+      <pubDate>Fri, 14 Jan 2022 01:00:00 +0800</pubDate>
+      
+      <guid>/publication/meetup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HERMES: Using Commit-Issue Linking to Detect Vulnerability-Fixing Commits</title>
+      <link>/publication/vcur2/</link>
+      <pubDate>Fri, 14 Jan 2022 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/vcur2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>mlopsdemo</title>
       <link>/opensource/mlops/</link>
       <pubDate>Tue, 07 Dec 2021 00:00:00 +0800</pubDate>
@@ -141,25 +159,6 @@
       
       <guid>/publication/harnessingurl/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Spiteful, One-Off, and Kind: Predicting Customer Feedback Behavior on Twitter</title>
-      <link>/publication/spiteful/</link>
-      <pubDate>Wed, 19 Oct 2016 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/spiteful/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Latest News</title>
-      <link>/post/news/</link>
-      <pubDate>Sat, 01 Oct 2016 00:00:00 +0800</pubDate>
-      
-      <guid>/post/news/</guid>
-      <description>&lt;p&gt;Our paper &lt;a href=&#34;/publication/software-experts/&#34;&gt;Recommending Who to Follow in the Software Engineering Twitter Space&lt;/a&gt;  has been selected for publication in the journal &lt;em&gt;Transactions on Software Engineering and Methodology (TOSEM)&lt;/em&gt;.&lt;/p&gt;
-</description>
     </item>
     
   </channel>

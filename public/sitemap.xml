@@ -4,6 +4,22 @@
     
     <url>
     
+      <loc>/publication/meetup/</loc>
+      <lastmod>2022-01-14T01:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication/vcur2/</loc>
+      <lastmod>2022-01-14T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/opensource/mlops/</loc>
       <lastmod>2021-12-07T00:00:00+08:00</lastmod>
     </url>
@@ -188,7 +204,7 @@
     <url>
     
       <loc>/publication_types/1/</loc>
-      <lastmod>2020-06-26T00:00:00+08:00</lastmod>
+      <lastmod>2022-01-14T01:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -252,6 +268,15 @@
     
       <loc>/tags/2021/</loc>
       <lastmod>2021-07-06T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/2022/</loc>
+      <lastmod>2022-01-14T01:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -348,7 +373,7 @@
     <url>
     
       <loc>/publication_types/</loc>
-      <lastmod>2020-06-26T00:00:00+08:00</lastmod>
+      <lastmod>2022-01-14T01:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -357,7 +382,7 @@
     <url>
     
       <loc>/tags/saner/</loc>
-      <lastmod>2017-02-22T00:00:00+08:00</lastmod>
+      <lastmod>2022-01-14T01:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
