@@ -21,7 +21,7 @@ weight = 1
 # List your qualifications (such as academic degrees).
 [[education.courses]]
   course = "Ph.D. in Information Systems"
-  institution = "School of Information Systems, Singapore Management University (SMU), Singapore"
+  institution = "School of Computing and Information Systems, Singapore Management University (SMU), Singapore"
   month = 01
   year = 2019
 
@@ -35,7 +35,7 @@ weight = 1
 # Biography,
 Hey!
 
-I am currently a Machine Learning Engineer at [Veracode](https://www.veracode.com/). Previously I was a Research Fellow at [LARC, Singapore](https://larc.smu.edu.sg/). Earlier, I obtained my Ph.D. in Information Systems from [School of Computing and Information Systems, Singapore Management University](https://scis.smu.edu.sg/) where I was supervised by Associate Professor [David Lo](http://www.mysmu.edu/faculty/davidlo/). My Ph.D. thesis, titled [*Social Software Development: Insights and Solutions*](https://ink.library.smu.edu.sg/etd_coll/166/), focused on finding insights about [content](files/preprints/icsme15-twitter.pdf) produced by developers on Twitter, addressing the issue of [information overload](files/preprints/nirmalSANER2015.pdf) faced by them, proposing automated techniques for finding [relevant technical urls](files/preprints/URL.pdf), and classifying [domain relevant experts](files/preprints/tosem18preprint.pdf) on [Twitter](https://leif.me/2013/11/how-software-developers-use-twitter/). <!--The techniques developed may aso be useful in solving similar problems in other [media channels](https://leif.me/2016/08/more-than-just-coding-a-study-on-supportive-channels-and-activities-in-software-development/) used by software developers.-->
+I am currently a Machine Learning Engineer at [Veracode](https://www.veracode.com/). Previously I was a Research Fellow at [LARC, Singapore](https://larc.smu.edu.sg/). Earlier, I obtained my Ph.D. in Information Systems from [School of Computing and Information Systems, Singapore Management University](https://scis.smu.edu.sg/) where I was supervised by Professor [David Lo](http://www.mysmu.edu/faculty/davidlo/). My Ph.D. thesis, titled [*Social Software Development: Insights and Solutions*](https://ink.library.smu.edu.sg/etd_coll/166/), focused on finding insights about [content](files/preprints/icsme15-twitter.pdf) produced by developers on Twitter, addressing the issue of [information overload](files/preprints/nirmalSANER2015.pdf) faced by them, proposing automated techniques for finding [relevant technical urls](files/preprints/URL.pdf), and classifying [domain relevant experts](files/preprints/tosem18preprint.pdf) on [Twitter](https://leif.me/2013/11/how-software-developers-use-twitter/). <!--The techniques developed may aso be useful in solving similar problems in other [media channels](https://leif.me/2016/08/more-than-just-coding-a-study-on-supportive-channels-and-activities-in-software-development/) used by software developers.-->
 
 
 I am a native of  [Himachal Pradesh](https://en.wikipedia.org/wiki/Himachal_Pradesh), a [western Himalayan](https://en.wikipedia.org/wiki/Western_Himalaya) state in India and have been born and brought up there till my graduation in 2008 from  [National Institute of Technology, Hamirpur](http://nith.ac.in/). My hobbies include watching and playing football and [running](https://www.strava.com/athletes/18520965/activity-summary/c652ea3c0e9fa6f74ef8b5df4eeab371e75b62a3) occasionally.
