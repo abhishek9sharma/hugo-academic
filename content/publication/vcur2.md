@@ -51,7 +51,7 @@ url_code = "https://github.com/soarsmu/HERMES"
 url_dataset = ""
 url_project = ""
 url_slides = ""
-url_video = ""
+url_video = "https://www.youtube.com/watch?v=S4a3wpHbVTw"
 url_poster = ""
 url_source = ""
 url_custom = [{name = "SANER", url = "tags/saner/"},

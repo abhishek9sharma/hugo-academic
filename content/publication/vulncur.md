@@ -46,7 +46,7 @@ projects = []
 
 # Links (optional).
 url_pdf = ""
-url_preprint = "https://asankhaya.github.io/pdf/A-Machine-Learning-Approach-for-Vulnerability-Curation.pdf"
+url_preprint = "files/preprints/vuln-cur-ensemble.pdf"
 url_code = ""
 url_dataset = ""
 url_project = ""

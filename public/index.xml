@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Automated Identification of Libraries from Vulnerability Data:Can We Do Better?</title>
+      <link>/publication/xmtc/</link>
+      <pubDate>Sat, 19 Mar 2022 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/xmtc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Analyzing Offline Social Engagements: AnEmpirical Study of Meetup Events Related to Software Development</title>
       <link>/publication/meetup/</link>
       <pubDate>Fri, 14 Jan 2022 01:00:00 +0800</pubDate>
@@ -149,15 +158,6 @@
       <pubDate>Thu, 15 Jun 2017 00:00:00 +0800</pubDate>
       
       <guid>/publication/cataloging/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Harnessing Twitter to support serendipitous learning of developers</title>
-      <link>/publication/harnessingurl/</link>
-      <pubDate>Wed, 22 Feb 2017 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/harnessingurl/</guid>
       <description></description>
     </item>
     
