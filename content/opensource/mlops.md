@@ -32,7 +32,7 @@ math = false
 
 +++
 
-A mini Dockerized ML system with MLOPS capabilities (train/deploy). It can train/deploy models for recommendation/classification given user+stores click interaction data set and automatically deploy models to be served by a simple python web API end point. You can find the source code of the application [here](https://github.com/abhishek9sharma/recsysdemo)
+A mini Dockerized ML system with MLOPS capabilities (train/deploy). It can train/deploy models for recommendation/classification given user+stores click interaction data set and automatically deploy models to be served by a simple python web API end point. You can find the source code of the application [here](https://github.com/abhishek9sharma/mlopsdemo)
 
 
 

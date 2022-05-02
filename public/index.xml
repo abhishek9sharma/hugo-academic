@@ -43,7 +43,7 @@
       <pubDate>Tue, 07 Dec 2021 00:00:00 +0800</pubDate>
       
       <guid>/opensource/mlops/</guid>
-      <description>&lt;p&gt;A mini Dockerized ML system with MLOPS capabilities (train/deploy). It can train/deploy models for recommendation/classification given user+stores click interaction data set and automatically deploy models to be served by a simple python web API end point. You can find the source code of the application &lt;a href=&#34;https://github.com/abhishek9sharma/recsysdemo&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;A mini Dockerized ML system with MLOPS capabilities (train/deploy). It can train/deploy models for recommendation/classification given user+stores click interaction data set and automatically deploy models to be served by a simple python web API end point. You can find the source code of the application &lt;a href=&#34;https://github.com/abhishek9sharma/mlopsdemo&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
