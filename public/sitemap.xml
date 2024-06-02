@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>/opensource/sarathi/</loc>
+      <lastmod>2024-05-07T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/publication/xmtc/</loc>
       <lastmod>2022-03-19T00:00:00+08:00</lastmod>
     </url>
@@ -62,22 +70,6 @@
     
       <loc>/publication/sieve/</loc>
       <lastmod>2019-09-27T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/opensource/forkinfo/</loc>
-      <lastmod>2019-02-10T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/opensource/nyctaxiservice/</loc>
-      <lastmod>2019-02-10T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -373,7 +365,7 @@
     <url>
     
       <loc>/opensource/</loc>
-      <lastmod>2021-12-07T00:00:00+08:00</lastmod>
+      <lastmod>2024-05-07T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -467,15 +459,6 @@
     
     <url>
     
-      <loc>/tags/bigquery/</loc>
-      <lastmod>2019-02-10T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/tags/docker/</loc>
       <lastmod>2021-12-07T00:00:00+08:00</lastmod>
       <priority>0</priority>
@@ -485,8 +468,8 @@
     
     <url>
     
-      <loc>/tags/flask/</loc>
-      <lastmod>2019-02-10T00:00:00+08:00</lastmod>
+      <loc>/tags/git/</loc>
+      <lastmod>2024-05-07T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -494,17 +477,8 @@
     
     <url>
     
-      <loc>/tags/flask-web-service/</loc>
-      <lastmod>2019-02-10T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/github/</loc>
-      <lastmod>2019-02-10T00:00:00+08:00</lastmod>
+      <loc>/tags/llm/</loc>
+      <lastmod>2024-05-07T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -513,7 +487,7 @@
     <url>
     
       <loc>/tags/machine-learning/</loc>
-      <lastmod>2021-12-07T00:00:00+08:00</lastmod>
+      <lastmod>2024-05-07T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -532,15 +506,6 @@
     
       <loc>/tags/news/</loc>
       <lastmod>2018-10-30T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/productivity/</loc>
-      <lastmod>2019-02-10T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     

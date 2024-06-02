@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Tue, 07 Dec 2021 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 07 May 2024 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="/opensource/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>sarathi</title>
+      <link>/opensource/sarathi/</link>
+      <pubDate>Tue, 07 May 2024 00:00:00 +0800</pubDate>
+      
+      <guid>/opensource/sarathi/</guid>
+      <description>Sarathi is an LLM-based, simple command line interface-based coding assistant. ThIt ca write detailed commit messages and documentation for a python codebases here</description>
+    </item>
     
     <item>
       <title>mlopsdemo</title>
@@ -19,25 +28,6 @@
       
       <guid>/opensource/mlops/</guid>
       <description>A mini Dockerized ML system with MLOPS capabilities (train/deploy). It can train/deploy models for recommendation/classification given user+stores click interaction data set and automatically deploy models to be served by a simple python web API end point. You can find the source code of the application here</description>
-    </item>
-    
-    <item>
-      <title>Fork Information</title>
-      <link>/opensource/forkinfo/</link>
-      <pubDate>Sun, 10 Feb 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/opensource/forkinfo/</guid>
-      <description>Many times I have to search for repositories at GitHub which may fill a coding requirment I have. During this process I have realized that I also go on looking at the forked versions of a repository in order to find something that matches my exact requirment. This app helps me with this process by automatically fetching the forks of a given repository and listing how far or behind they are from the parent fork.</description>
-    </item>
-    
-    <item>
-      <title>nyctaxiservice</title>
-      <link>/opensource/nyctaxiservice/</link>
-      <pubDate>Sun, 10 Feb 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/opensource/nyctaxiservice/</guid>
-      <description>This is an example of a web service which exposes the data in a google big-query table as a web service. Currently it provides 3 endpoints which help to query data present in the NYC Taxi Dataset. You can find the source code of the application here. A demo has been deployed at nyxtaxiservice.
-Note: On live demo at nyxtaxiservice there are currently some issues with the endpoint avg_fare_by_s2id</description>
     </item>
     
   </channel>

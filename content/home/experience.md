@@ -20,14 +20,25 @@ date_format = "January 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Assitant Vice President ( Data Science and Machine Learning)"
+  company = "OCBC AI Lab"
+  company_url = "https://www.ocbc.com/"
+  location = "Singapore"
+  date_start = "2022-07-25"
+  #date_end = "2019-12-11"
+  description="""
+  Current role requires developing tools for optimizaing Machine Learning Operations (MLOPs) and deploying LLM Models for various use cases
+  """
+
+[[experience]]
   title = "Senior Software Engineer (Machine Learning)"
   company = "Veracode"
   company_url = "hhttps://www.veracode.com/"
   location = "Singapore"
   date_start = "2019-12-12"
-  #date_end = "2019-12-11"
+  date_end = "2022-07-19"
   description="""
-  Current role requires developing prediction services, which use machine learning models in order to filter and curate data from open source software repositories such as GitHub, mailing lists etc. Also involved in researching data science and machine learning use cases to drive product improvement.
+  Developed and maintained predictive services and models, which use machine learning models in order to filter and curate data from open source software repositories such as GitHub, mailing lists etc. Also involved in researching data science and machine learning use cases to drive product improvement.
   """
 
 [[experience]]

@@ -184,15 +184,6 @@
     </item>
     
     <item>
-      <title>bigquery</title>
-      <link>/tags/bigquery/</link>
-      <pubDate>Sun, 10 Feb 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/tags/bigquery/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>docker</title>
       <link>/tags/docker/</link>
       <pubDate>Tue, 07 Dec 2021 00:00:00 +0800</pubDate>
@@ -202,36 +193,27 @@
     </item>
     
     <item>
-      <title>flask</title>
-      <link>/tags/flask/</link>
-      <pubDate>Sun, 10 Feb 2019 00:00:00 +0800</pubDate>
+      <title>git</title>
+      <link>/tags/git/</link>
+      <pubDate>Tue, 07 May 2024 00:00:00 +0800</pubDate>
       
-      <guid>/tags/flask/</guid>
+      <guid>/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>flask-web-service</title>
-      <link>/tags/flask-web-service/</link>
-      <pubDate>Sun, 10 Feb 2019 00:00:00 +0800</pubDate>
+      <title>llm</title>
+      <link>/tags/llm/</link>
+      <pubDate>Tue, 07 May 2024 00:00:00 +0800</pubDate>
       
-      <guid>/tags/flask-web-service/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>github</title>
-      <link>/tags/github/</link>
-      <pubDate>Sun, 10 Feb 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/tags/github/</guid>
+      <guid>/tags/llm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>machine-learning</title>
       <link>/tags/machine-learning/</link>
-      <pubDate>Tue, 07 Dec 2021 00:00:00 +0800</pubDate>
+      <pubDate>Tue, 07 May 2024 00:00:00 +0800</pubDate>
       
       <guid>/tags/machine-learning/</guid>
       <description></description>
@@ -252,15 +234,6 @@
       <pubDate>Sat, 01 Oct 2016 00:00:00 +0800</pubDate>
       
       <guid>/tags/news/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>productivity</title>
-      <link>/tags/productivity/</link>
-      <pubDate>Sun, 10 Feb 2019 00:00:00 +0800</pubDate>
-      
-      <guid>/tags/productivity/</guid>
       <description></description>
     </item>
     
