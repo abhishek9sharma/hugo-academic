@@ -13,6 +13,11 @@ type = "docs"  # Do not modify.
   name = "Overview"
   weight = 1
 
+[menu.topic1]
+  name = "topic1"
+  weight = 1
+
+
 # Featured image.
 # Uncomment below lines to use.
 # [header]
@@ -20,9 +25,9 @@ type = "docs"  # Do not modify.
 # caption = "Image credit: [**Academic**](https://github.com/gcushen/hugo-academic/)"
 +++
 
-This feature can be used for publishing content such as:
+This section contains som mini tutorials on some topics of my interests.
 
-* **Project or software documentation**
+<!-- * **Project or software documentation**
 * **Online courses**
 * **Tutorials**
 
@@ -30,4 +35,4 @@ The parent folder may be renamed, for example, to `docs` for project documentati
 
 To disable this feature, either delete the parent folder, or set `draft = true` in the front matter of all its pages. 
 
-After renaming or deleting the parent folder, you may wish to update any `[[menu.main]]` menu links to it in the `config.toml`. 
+After renaming or deleting the parent folder, you may wish to update any `[[menu.main]]` menu links to it in the `config.toml`.  -->

@@ -103,22 +103,22 @@
     </item>
     
     <item>
-      <title>Example Page</title>
-      <link>/tutorial/example/</link>
+      <title>Guardrail-AI Basics</title>
+      <link>/tutorial/guardrail_basics/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 +0800</pubDate>
       
-      <guid>/tutorial/example/</guid>
-      <description>
-
-&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
-
-&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
-
-&lt;p&gt;&amp;hellip;&lt;/p&gt;
-
-&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
-
-&lt;p&gt;&amp;hellip;&lt;/p&gt;
+      <guid>/tutorial/guardrail_basics/</guid>
+      <description>&lt;p&gt;Coming Soon&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Serving a Guarded Chat Completions Endpoint</title>
+      <link>/tutorial/guardrail_serve/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/tutorial/guardrail_serve/</guid>
+      <description>&lt;p&gt;Coming Soon&lt;/p&gt;
 </description>
     </item>
     
@@ -146,15 +146,6 @@
       <pubDate>Thu, 15 Jun 2017 00:00:00 +0800</pubDate>
       
       <guid>/publication/cataloging/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Harnessing Twitter to support serendipitous learning of developers</title>
-      <link>/publication/harnessingurl/</link>
-      <pubDate>Wed, 22 Feb 2017 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/harnessingurl/</guid>
       <description></description>
     </item>
     

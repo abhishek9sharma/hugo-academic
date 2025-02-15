@@ -13,14 +13,21 @@
     
     
     <item>
-      <title>Example Page</title>
-      <link>/tutorial/example/</link>
+      <title>Guardrail-AI Basics</title>
+      <link>/tutorial/guardrail_basics/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 +0800</pubDate>
       
-      <guid>/tutorial/example/</guid>
-      <description>In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:
-Tip 1 &amp;hellip;
-Tip 2 &amp;hellip;</description>
+      <guid>/tutorial/guardrail_basics/</guid>
+      <description>Coming Soon</description>
+    </item>
+    
+    <item>
+      <title>Serving a Guarded Chat Completions Endpoint</title>
+      <link>/tutorial/guardrail_serve/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/tutorial/guardrail_serve/</guid>
+      <description>Coming Soon</description>
     </item>
     
   </channel>
