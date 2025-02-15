@@ -103,23 +103,30 @@
     </item>
     
     <item>
-      <title>Guardrail-AI Basics</title>
-      <link>/tutorial/guardrail_basics/</link>
+      <title>Part 1: Basics of Guardrails-AI Python Library</title>
+      <link>/tutorial/guardrails-ai/guardrail_basics/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 +0800</pubDate>
       
-      <guid>/tutorial/guardrail_basics/</guid>
-      <description>&lt;p&gt;Coming Soon&lt;/p&gt;
-</description>
+      <guid>/tutorial/guardrails-ai/guardrail_basics/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Serving a Guarded Chat Completions Endpoint</title>
-      <link>/tutorial/guardrail_serve/</link>
+      <title>Part 2: Deploying a Guarded Endpoint Using FastAPI</title>
+      <link>/tutorial/guardrails-ai/guardrail_serve/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 +0800</pubDate>
       
-      <guid>/tutorial/guardrail_serve/</guid>
-      <description>&lt;p&gt;Coming Soon&lt;/p&gt;
-</description>
+      <guid>/tutorial/guardrails-ai/guardrail_serve/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Part 3: Adding a Custom Validator to Guardrails-AI</title>
+      <link>/tutorial/guardrails-ai/guardrail_validator/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/tutorial/guardrails-ai/guardrail_validator/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -137,15 +144,6 @@
       <pubDate>Sun, 17 Sep 2017 00:00:00 +0800</pubDate>
       
       <guid>/publication/personality/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cataloging github repositories</title>
-      <link>/publication/cataloging/</link>
-      <pubDate>Thu, 15 Jun 2017 00:00:00 +0800</pubDate>
-      
-      <guid>/publication/cataloging/</guid>
       <description></description>
     </item>
     

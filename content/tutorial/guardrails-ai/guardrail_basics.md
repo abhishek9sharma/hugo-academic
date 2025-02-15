@@ -1,5 +1,5 @@
 +++
-title = "Serving a Guarded Chat Completions Endpoint"
+title = "Part 1: Basics of Guardrails-AI Python Library"
 
 date = 2018-09-09T00:00:00
 # lastmod = 2018-09-09T00:00:00
@@ -9,10 +9,10 @@ toc = true  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 
 # Add menu entry to sidebar.
-linktitle = "serve"
-[menu.tutorial]
+linktitle = "01_basics"
+[menu.guardrails-ai]
   parent = "Guardrails-AI"
-  weight = 1
+  weight = 2
 
 # Featured image.
 # Uncomment below lines to use.
@@ -21,4 +21,3 @@ linktitle = "serve"
 # caption = "Image credit: [**Academic**](https://github.com/gcushen/hugo-academic/)"
 +++
 
-Coming Soon

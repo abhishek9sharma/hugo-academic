@@ -10,7 +10,7 @@ cd ..
 
 cd abhishek9sharma.github.io
 
-cp -av ../hugo-academic-abhishek/public/* .
+cp -av ../hugo-academic/public/* .
 
 
 # Add changes to git.

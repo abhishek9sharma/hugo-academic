@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -105,7 +107,7 @@
   
   <meta property="og:site_name" content="Abhishek Sharma">
   <meta property="og:url" content="/tutorial/">
-  <meta property="og:title" content="Overview | Abhishek Sharma">
+  <meta property="og:title" content=" | Abhishek Sharma">
   <meta property="og:description" content="">
   
   
@@ -113,14 +115,14 @@
   <meta property="og:image" content="/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2018-09-09T00:00:00&#43;08:00">
+  
   
 
   
 
   
 
-  <title>Overview | Abhishek Sharma</title>
+  <title> | Abhishek Sharma</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -241,19 +243,24 @@
         
 
         
-
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link" href="/tutorial/">
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
             
             <span>Tutorials</span>
             
+            <span class="caret"></span>
           </a>
+          <ul class="dropdown-menu">
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/tutorial/guardrails-ai">
+                
+                <span>Guardrails-AI</span>
+                
+              </a>
+            </li>
+            
+          </ul>
         </li>
 
         
@@ -272,108 +279,75 @@
 
 
 
-<div class="container-fluid docs">
-  <div class="row flex-xl-nowrap">
-    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
-      
 
 
-
-
-<form class="docs-search d-flex align-items-center">
-  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
-    <span><i class="fas fa-bars"></i></span>
-  </button>
+<div class="universal-wrapper">
+  
 
   
-  <input name="q" type="search" class="form-control" id="search-query" placeholder="Search..." autocomplete="off">
+  <div class="article-style" itemprop="articleBody">
+
+<p>title = &ldquo;Overview&rdquo;</p>
+
+<p>date = 2018-09-09T00:00:00</p>
+
+<h1 id="lastmod-2018-09-09t00-00-00">lastmod = 2018-09-09T00:00:00</h1>
+
+<p>draft = false  # Is this a draft? true/false
+toc = true  # Show table of contents? true/false
+type = &ldquo;docs&rdquo;  # Do not modify.</p>
+
+<h1 id="add-menu-entry-to-sidebar">Add menu entry to sidebar.</h1>
+
+<p>[menu.tutorial]
+  name = &ldquo;Overview&rdquo;
+  weight = 1</p>
+
+<h1 id="add-menu-entry-to-sidebar-1">Add menu entry to sidebar.</h1>
+
+<p>[menu.guardrails-ai]
+  name = &ldquo;Overview&rdquo;
+  weight = 2</p>
+
+<p>&lt;!&ndash; +++
+[menu.topic1]
+  name = &ldquo;topic1&rdquo;
+  weight = 1</p>
+
+<h1 id="featured-image">Featured image.</h1>
+
+<h1 id="uncomment-below-lines-to-use">Uncomment below lines to use.</h1>
+
+<h1 id="header">[header]</h1>
+
+<h1 id="image-headers-getting-started-png">image = &ldquo;headers/getting-started.png&rdquo;</h1>
+
+<h1 id="caption-image-credit-academic-https-github-com-gcushen-hugo-academic">caption = &ldquo;Image credit: <a href="https://github.com/gcushen/hugo-academic/" target="_blank"><strong>Academic</strong></a>&ldquo;</h1>
+
+<p>+++</p>
+
+<p>This section contains som mini tutorials on some topics of my interests.</p>
+
+<p>&lt;!&ndash; * <strong>Project or software documentation</strong>
+* <strong>Online courses</strong>
+* <strong>Tutorials</strong></p>
+
+<p>The parent folder may be renamed, for example, to <code>docs</code> for project documentation or <code>course</code> for creating an online course.</p>
+
+<p>To disable this feature, either delete the parent folder, or set <code>draft = true</code> in the front matter of all its pages.</p>
+
+<p>After renaming or deleting the parent folder, you may wish to update any <code>[[menu.main]]</code> menu links to it in the <code>config.toml</code>.  &ndash;&gt; &ndash;&gt;</p>
+</div>
   
-</form>
 
-<nav class="collapse docs-links" id="docs-nav">
   
   
-  <div class="docs-toc-item active">
-    <a class="docs-toc-link" href="/tutorial/">Overview</a>
 
-  </div>
   
-  <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/tutorial/guardrail_basics/">Guardrails-AI</a>
-    <ul class="nav docs-sidenav">
-      
-      <li >
-        <a href="/tutorial/guardrail_basics/">basics</a>
-      </li>
-      
-      <li >
-        <a href="/tutorial/guardrail_serve/">serve</a>
-      </li>
-      
-    </ul>
-    
 
-  </div>
-  
-  
-</nav>
-
-    </div>
-
-    
-    <div class="d-none d-xl-block col-xl-2 docs-toc">
-      
-      <p class="docs-toc-title">On this page</p>
-      
-
-      
-
-      <ul class="nav toc-top">
-        <li><a href="#">Back to top</a></li>
-      </ul>
-
-      
-    </div>
-    
-
-    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
-      <div id="search-hits">
-        
-      </div>
-      <article class="article" itemscope itemtype="http://schema.org/Article">
-
-        
-
-
-        <div class="docs-article-container">
-          <h1 itemprop="name">Overview</h1>
-
-          <div class="article-style" itemprop="articleBody">
-            <p>This section contains som mini tutorials on some topics of my interests.</p>
-
-<!-- * **Project or software documentation**
-* **Online courses**
-* **Tutorials**
-
-The parent folder may be renamed, for example, to `docs` for project documentation or `course` for creating an online course.
-
-To disable this feature, either delete the parent folder, or set `draft = true` in the front matter of all its pages. 
-
-After renaming or deleting the parent folder, you may wish to update any `[[menu.main]]` menu links to it in the `config.toml`.  -->
-
-          </div>
-
-          
-
-        </div>
-
-        <div class="body-footer">
-          Last updated on Sep 9, 2018
-        </div>
-
-      </article>
-
-      <footer class="site-footer">
+</div>
+<div class="container">
+  <footer class="site-footer">
   
 
   <p class="powered-by">
@@ -384,11 +358,42 @@ After renaming or deleting the parent folder, you may wish to update any `[[menu
     <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
 
     
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
   </p>
 </footer>
 
+</div>
 
-    </main>
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -451,11 +456,6 @@ After renaming or deleting the parent folder, you may wish to update any `[[menu
 
     
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
-    <script>
-      anchors.add();
-    </script>
-    
 
     
     
@@ -484,5 +484,6 @@ After renaming or deleting the parent folder, you may wish to update any `[[menu
 
   </body>
 </html>
+
 
 

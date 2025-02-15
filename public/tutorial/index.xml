@@ -1,34 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Overview on Abhishek Sharma</title>
+    <title>Abhishek Sharma</title>
     <link>/tutorial/</link>
-    <description>Recent content in Overview on Abhishek Sharma</description>
+    <description>Recent content on Abhishek Sharma</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Guardrail-AI Basics</title>
-      <link>/tutorial/guardrail_basics/</link>
-      <pubDate>Sun, 09 Sep 2018 00:00:00 +0800</pubDate>
-      
-      <guid>/tutorial/guardrail_basics/</guid>
-      <description>Coming Soon</description>
-    </item>
-    
-    <item>
-      <title>Serving a Guarded Chat Completions Endpoint</title>
-      <link>/tutorial/guardrail_serve/</link>
-      <pubDate>Sun, 09 Sep 2018 00:00:00 +0800</pubDate>
-      
-      <guid>/tutorial/guardrail_serve/</guid>
-      <description>Coming Soon</description>
-    </item>
     
   </channel>
 </rss>

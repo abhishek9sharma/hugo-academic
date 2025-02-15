@@ -84,7 +84,7 @@
     
     <url>
     
-      <loc>/tutorial/</loc>
+      <loc>/tutorial/guardrails-ai/guardrail_basics/</loc>
       <lastmod>2018-09-09T00:00:00+08:00</lastmod>
     </url>
     
@@ -92,7 +92,7 @@
     
     <url>
     
-      <loc>/tutorial/guardrail_basics/</loc>
+      <loc>/tutorial/guardrails-ai/guardrail_serve/</loc>
       <lastmod>2018-09-09T00:00:00+08:00</lastmod>
     </url>
     
@@ -100,7 +100,15 @@
     
     <url>
     
-      <loc>/tutorial/guardrail_serve/</loc>
+      <loc>/tutorial/guardrails-ai/guardrail_validator/</loc>
+      <lastmod>2018-09-09T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tutorial/guardrails-ai/</loc>
       <lastmod>2018-09-09T00:00:00+08:00</lastmod>
     </url>
     
@@ -205,6 +213,13 @@
     <url>
     
       <loc>/project/ease/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tutorial/</loc>
     </url>
     
   

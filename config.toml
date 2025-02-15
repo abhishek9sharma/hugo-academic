@@ -317,9 +317,20 @@ enableGitInfo = false
 
 
 [[menu.main]]
-  name = "Tutorials"
-  url = "/tutorial/"
+ identifier="guardrails-ai"
+  name = "Guardrails-AI"
+  url = "/tutorial/guardrails-ai"
+  parent="tutorials"
   weight = 5
+
+
+[[menu.main]]
+  identifier="tutorials"
+  name = "Tutorials"
+  url = "/tutorial"
+  weight = 5
+
+
 
 #[[menu.main]]
 #  name = "Contact"

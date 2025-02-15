@@ -1,5 +1,5 @@
 +++
-title = "Guardrail-AI Basics"
+title = "Part 3: Adding a Custom Validator to Guardrails-AI"
 
 date = 2018-09-09T00:00:00
 # lastmod = 2018-09-09T00:00:00
@@ -9,10 +9,10 @@ toc = true  # Show table of contents? true/false
 type = "docs"  # Do not modify.
 
 # Add menu entry to sidebar.
-linktitle = "basics"
-[menu.tutorial]
+linktitle = "03_custom_validator"
+[menu.guardrails-ai]
   parent = "Guardrails-AI"
-  weight = 1
+  weight = 2
 
 # Featured image.
 # Uncomment below lines to use.
@@ -21,4 +21,3 @@ linktitle = "basics"
 # caption = "Image credit: [**Academic**](https://github.com/gcushen/hugo-academic/)"
 +++
 
-Coming Soon

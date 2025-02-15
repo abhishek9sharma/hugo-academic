@@ -1,4 +1,4 @@
-+++
+
 title = "Overview"
 
 date = 2018-09-09T00:00:00
@@ -13,6 +13,12 @@ type = "docs"  # Do not modify.
   name = "Overview"
   weight = 1
 
+# Add menu entry to sidebar.
+[menu.guardrails-ai]
+  name = "Overview"
+  weight = 2
+
+<!-- +++
 [menu.topic1]
   name = "topic1"
   weight = 1
@@ -35,4 +41,4 @@ The parent folder may be renamed, for example, to `docs` for project documentati
 
 To disable this feature, either delete the parent folder, or set `draft = true` in the front matter of all its pages. 
 
-After renaming or deleting the parent folder, you may wish to update any `[[menu.main]]` menu links to it in the `config.toml`.  -->
+After renaming or deleting the parent folder, you may wish to update any `[[menu.main]]` menu links to it in the `config.toml`.  --> -->
