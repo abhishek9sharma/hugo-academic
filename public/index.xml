@@ -103,12 +103,232 @@
     </item>
     
     <item>
-      <title>Part 1: Basics of Guardrails-AI Python Library</title>
-      <link>/tutorial/guardrails-ai/guardrail_basics/</link>
+      <title>Part 1: Introduction to Guardrails-AI Python Library</title>
+      <link>/tutorial/guardrails-ai/guardrail_intro/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 +0800</pubDate>
       
-      <guid>/tutorial/guardrails-ai/guardrail_basics/</guid>
-      <description></description>
+      <guid>/tutorial/guardrails-ai/guardrail_intro/</guid>
+      <description>
+
+&lt;h1 id=&#34;1-set-up-environment&#34;&gt;1. Set up environment&lt;/h1&gt;
+
+&lt;h2 id=&#34;1-1-install-a-virtual-env-with-all-dependencies&#34;&gt;1.1 Install a Virtual env with all dependencies&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;  %%bash
+  uv venv guarded_llm_env
+  source guarded_llm_env/bin/activate
+  uv pip install ipykernel guardrails-ai nbconvert
+  python -m ipykernel install --user --name=guarded_llm_env
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;1-2-activate-the-kernel&#34;&gt;1.2 Activate the Kernel&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;refresh the browser&lt;/li&gt;
+&lt;li&gt;activate the &lt;strong&gt;guarded_llm_env&lt;/strong&gt; kernel&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;2-normal-llm-calls&#34;&gt;2. Normal LLM Calls&lt;/h1&gt;
+
+&lt;h2 id=&#34;2-1-set-up-your-llm-provider-and-authentication-token&#34;&gt;2.1 Set up your LLM Provider and Authentication token&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;  # import os
+  # os.environ[&amp;quot;LLM_API_TOKEN&amp;quot;] = &amp;quot;sk-123&amp;quot;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;  LLM_PROVIDER_BASE=&amp;quot;https://api.openai.com/v1&amp;quot;
+  LLM_API_TOKEN=os.environ[&amp;quot;LLM_API_TOKEN&amp;quot;] 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;  user_chat_request = {
+      &amp;quot;messages&amp;quot;:[
+          {&amp;quot;role&amp;quot;: &amp;quot;user&amp;quot;, 
+            &amp;quot;content&amp;quot;: &amp;quot;Are python developers dumb idiotic and should they use rust&amp;quot;}
+      ],
+      &amp;quot;stream&amp;quot;:True,
+      &amp;quot;max_tokens&amp;quot;:50,
+      &amp;quot;model&amp;quot;: &amp;quot;gpt-3.5-turbo&amp;quot;
+  }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;2-2-make-an-normal-llm-call&#34;&gt;2.2 Make an normal LLM Call&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I am using litellm completion method here&lt;/li&gt;
+&lt;li&gt;Reference : &lt;a href=&#34;https://docs.litellm.ai/docs/completion/input&#34; target=&#34;_blank&#34;&gt;https://docs.litellm.ai/docs/completion/input&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;  import litellm
+  from typing import Dict, Any
+
+  def call_llm(provider_base, provider_key, *args, **kwargs) -&amp;gt; str:
+      &amp;quot;&amp;quot;&amp;quot;Calls an LLM using litellm.completion.&amp;quot;&amp;quot;&amp;quot;
+
+      #some bug in litellm version
+      if &amp;quot;msg_history&amp;quot; in kwargs:
+          kwargs.pop(&amp;quot;msg_history&amp;quot;)
+          
+      response = litellm.completion(
+          api_base=provider_base,
+          api_key=provider_key,
+          **kwargs
+      )
+      if &amp;quot;stream&amp;quot; in kwargs and kwargs[&amp;quot;stream&amp;quot;]:
+          for resp in response:
+              if resp.choices[0].delta.content:  # Some responses may not have content
+                  chunk = resp.choices[0].delta.content
+                  #print(chunk, end=&amp;quot;&amp;quot;, flush=True)  # Print in real-time
+                  yield chunk
+      else:
+          yield response[&#39;choices&#39;][0][&#39;message&#39;][&#39;content&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;  for chunk_resp in call_llm(provider_base=LLM_PROVIDER_BASE, provider_key=LLM_API_TOKEN, **user_chat_request):
+      print(chunk_resp, end=&amp;quot;&amp;quot;, flush=True)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;3-guarded-llm-calls&#34;&gt;3. Guarded LLM Calls&lt;/h1&gt;
+
+&lt;h2 id=&#34;3-1-install-guard-from-guardrails-hub&#34;&gt;3.1 Install Guard from Guardrails HUB&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Go to &lt;a href=&#34;https://hub.guardrailsai.com/&#34; target=&#34;_blank&#34;&gt;https://hub.guardrailsai.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Get Your token and configure it locally&lt;/li&gt;
+&lt;li&gt;Install your required guard&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;### 3.1.1 Configure Hub Token&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;  # import os
+  # os.environ[&amp;quot;GR_TOKEN&amp;quot;]=&amp;quot;GRTOKENHERE&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;  %%bash
+  source guarded_llm_env/bin/activate
+  guardrails configure --disable-remote-inferencing --disable-metrics --token $GR_TOKEN
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;### 3.1.2 Install Guardrail From Hub&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;  %%bash
+  source guarded_llm_env/bin/activate &amp;amp;&amp;amp; guardrails hub install hub://guardrails/profanity_free
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;3-2-call-llm-with-guardrails&#34;&gt;3.2 Call LLM with Guardrails&lt;/h2&gt;
+
+&lt;p&gt;### 3.2.1 Initialize Guardrail Object&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;  import guardrails as gd
+  from guardrails.hub import ProfanityFree
+  from guardrails import OnFailAction
+  profanity_guard =  gd.Guard(name=&amp;quot;Profanity&amp;quot;).use(ProfanityFree, on_fail=OnFailAction.EXCEPTION)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;### 3.2.2 Apply GuardRails on Inputs&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;  def call_llm_guard_input(provider_base, provider_key, chat_request: Dict[str, Any], guard_to_apply=None) -&amp;gt; str:
+      &amp;quot;&amp;quot;&amp;quot;Calls an LLM with Profanity Guard&amp;quot;&amp;quot;&amp;quot;
+      if guard_to_apply:
+          #Validate Input Only
+          try:
+              for msg in chat_request[&amp;quot;messages&amp;quot;]:
+                  guard_to_apply.validate(msg[&amp;quot;content&amp;quot;])
+          except Exception as e:
+              error_str = &amp;quot;INPUT_GUARD_FAILED::&amp;quot; + str(e)
+              yield error_str
+
+              
+      else:
+          for chunk_resp in call_llm(provider_base=LLM_PROVIDER_BASE, provider_key=LLM_API_TOKEN, **user_chat_request):
+              yield chunk_resp
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;  #Call with Input Guards
+  for chunk_resp in call_llm_guard_input(provider_base=LLM_PROVIDER_BASE, 
+                                        provider_key=LLM_API_TOKEN, 
+                                        chat_request=user_chat_request, 
+                                        guard_to_apply=profanity_guard):
+      print(chunk_resp, end=&amp;quot;&amp;quot;, flush=True)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;### 3.2.3 Apply GuardRails on Inputs plus Outputs&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;  def call_llm_guard_output(provider_base, provider_key, chat_request: Dict[str, Any], guard_to_apply=None) -&amp;gt; str:
+      &amp;quot;&amp;quot;&amp;quot;Calls an LLM with Profanity Guard&amp;quot;&amp;quot;&amp;quot;
+      if guard_to_apply:
+          
+          try:
+              llm_output_gen =profanity_guard(call_llm,provider_base=LLM_PROVIDER_BASE, provider_key=LLM_API_TOKEN, **chat_request)
+              for validation_outcome in llm_output_gen:
+                  if validation_outcome.validation_passed==True:
+                      yield validation_outcome.validated_output
+          except Exception as e:
+              error_str = &amp;quot;OUTPUT_GUARD_FAILED::&amp;quot; + str(e)
+              yield error_str        
+              
+      else:
+          for chunk_resp in call_llm(provider_base=LLM_PROVIDER_BASE, provider_key=LLM_API_TOKEN, **user_chat_request):
+              yield chunk_resp
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;  #Call LLM with OUTPUT  Guards
+  for chunk_resp in call_llm_guard_output(provider_base=LLM_PROVIDER_BASE, provider_key=LLM_API_TOKEN, chat_request=user_chat_request, guard_to_apply=profanity_guard):
+      print(chunk_resp, end=&amp;quot;&amp;quot;, flush=True)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;  def call_llm_guarded(provider_base, provider_key, chat_request: Dict[str, Any], guard_to_apply=None) -&amp;gt; str:
+      &amp;quot;&amp;quot;&amp;quot;Calls an LLM with Profanity Guard&amp;quot;&amp;quot;&amp;quot;
+      if guard_to_apply:
+
+          #Validate Input Only
+          try:
+              for msg in chat_request[&amp;quot;messages&amp;quot;]:
+                  guard_to_apply.validate(msg[&amp;quot;content&amp;quot;])
+          except Exception as e:
+              error_str = &amp;quot;INPUT_GUARD_FAILED::&amp;quot; + str(e)
+              yield error_str
+
+          try:
+              llm_output_gen =profanity_guard(call_llm,provider_base=LLM_PROVIDER_BASE, provider_key=LLM_API_TOKEN, **chat_request)
+              for validation_outcome in llm_output_gen:
+                  if validation_outcome.validation_passed==True:
+                      yield validation_outcome.validated_output
+          except Exception as e:
+              error_str = &amp;quot;OUTPUT_GUARD_FAILED::&amp;quot; + str(e)
+              yield error_str        
+              
+              
+      else:
+          for chunk_resp in call_llm(provider_base=LLM_PROVIDER_BASE, provider_key=LLM_API_TOKEN, **user_chat_request):
+              yield chunk_resp
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;  user_chat_request_new = {
+      &amp;quot;messages&amp;quot;:[
+          {&amp;quot;role&amp;quot;: &amp;quot;user&amp;quot;, 
+            &amp;quot;content&amp;quot;: &amp;quot;Complete the below sentence. he is in id**t &amp;quot;}
+      ],
+      &amp;quot;stream&amp;quot;:True,
+      &amp;quot;max_tokens&amp;quot;:50,
+      &amp;quot;model&amp;quot;: &amp;quot;gpt-3.5-turbo&amp;quot;
+  }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;  #Call LLM with OUTPUT  Guards
+  for chunk_resp in call_llm_guarded(provider_base=LLM_PROVIDER_BASE, 
+                                          provider_key=LLM_API_TOKEN, 
+                                          chat_request=user_chat_request_new,
+                                          guard_to_apply=profanity_guard):
+      print(chunk_resp, end=&amp;quot;&amp;quot;, flush=True)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
