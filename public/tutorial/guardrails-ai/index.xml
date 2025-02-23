@@ -15,19 +15,19 @@
     <item>
       <title>Part 1: Introduction to Guardrails-AI Python Library</title>
       <link>/tutorial/guardrails-ai/guardrail_intro/</link>
-      <pubDate>Sun, 09 Sep 2018 00:00:00 +0800</pubDate>
+      <pubDate>Sun, 23 Feb 2025 00:00:00 +0800</pubDate>
       
       <guid>/tutorial/guardrails-ai/guardrail_intro/</guid>
-      <description>1. Set up environment 1.1 Install a Virtual env with all dependencies %%bash uv venv guarded_llm_env source guarded_llm_env/bin/activate uv pip install ipykernel guardrails-ai nbconvert python -m ipykernel install --user --name=guarded_llm_env  1.2 Activate the Kernel  refresh the browser activate the guarded_llm_env kernel  2. Normal LLM Calls 2.1 Set up your LLM Provider and Authentication token # import os # os.environ[&amp;quot;LLM_API_TOKEN&amp;quot;] = &amp;quot;sk-123&amp;quot;  LLM_PROVIDER_BASE=&amp;quot;https://api.openai.com/v1&amp;quot; LLM_API_TOKEN=os.environ[&amp;quot;LLM_API_TOKEN&amp;quot;]  user_chat_request = { &amp;quot;messages&amp;quot;:[ {&amp;quot;role&amp;quot;: &amp;quot;user&amp;quot;, &amp;quot;content&amp;quot;: &amp;quot;Are python developers dumb idiotic and should they use rust&amp;quot;} ], &amp;quot;stream&amp;quot;:True, &amp;quot;max_tokens&amp;quot;:50, &amp;quot;model&amp;quot;: &amp;quot;gpt-3.</description>
+      <description>1. Set up environment 1.1 Install a Virtual env with all dependencies 1.1.1 UV Based Environment Creation  Running below cell requires uv to be installed on your machine. You can install from https://docs.astral.sh/uv/pip/environments/ If you dont want UV please use pip based install  %%bash uv venv guarded_llm_env source guarded_llm_env/bin/activate uv pip install ipykernel nbconvert uv pip install guardrails-ai==0.6.3 --prerelease allow uv pip install fastapi uvicorn nest-asyncio python -m ipykernel install --user --name=guarded_llm_env  1.</description>
     </item>
     
     <item>
       <title>Part 2: Deploying a Guarded Endpoint Using FastAPI</title>
       <link>/tutorial/guardrails-ai/guardrail_serve/</link>
-      <pubDate>Sun, 09 Sep 2018 00:00:00 +0800</pubDate>
+      <pubDate>Sun, 23 Feb 2025 00:00:00 +0800</pubDate>
       
       <guid>/tutorial/guardrails-ai/guardrail_serve/</guid>
-      <description></description>
+      <description>1. Set up environment 1.1 Install a Virtual env with all dependencies 1.1.1 UV Based Environment Creation  Running below cell requires uv to be installed on your machine. You can install from https://docs.astral.sh/uv/pip/environments/ If you dont want UV please use pip based install  %%bash uv venv guarded_llm_env source guarded_llm_env/bin/activate uv pip install ipykernel nbconvert uv pip install guardrails-ai==0.6.3 --prerelease allow uv pip install fastapi uvicorn nest-asyncio python -m ipykernel install --user --name=guarded_llm_env  1.</description>
     </item>
     
     <item>
